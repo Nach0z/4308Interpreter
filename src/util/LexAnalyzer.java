@@ -1,8 +1,15 @@
 package util;
 
+import java.util.*;
+import java.util.function.IntSupplier;
+import java.util.stream.Collectors;
+
 public class LexAnalyzer {
-	protected Lexeme[] allLexes = {
-		//new Lexeme(null, -1), // IDs
+	public static HashMap<String, Integer> Globals = new HashMap<String, Integer>();
+	
+	public static List<Lexeme> allLexes = new ArrayList<Lexeme>(Arrays.asList(new Lexeme[]{
+		new Lexeme(null, -2), // Numerical constants
+		new Lexeme(null, -1), // IDs
 		new Lexeme("function", 1), // begin function
 		new Lexeme("(", 2), // open paren
 		new Lexeme(")", 3), // close paren
@@ -27,8 +34,37 @@ public class LexAnalyzer {
 		new Lexeme("\\", 22), // typo'd divide operator
 		new Lexeme("%", 23), // modulo operator
 		new Lexeme("^", 24), // exponent operator
-	};
-	protected LexNode[] parseNodes = {
-		new LexNode()
-	};
+	}));
+	public static LexNode GetNode(String token) {
+		List<Lexeme> keywords = allLexes.stream().filter(x -> x.LexToken != null && x.LexToken.equalsIgnoreCase(token)).collect(Collectors.toList());
+		LexNode ret = new LexNode();
+		if(keywords.size() == 0)
+		{
+			// wasn't a matched reserved keyword - must be an ID or numerical constant.	
+			if(token.matches("[a-zA-Z]")) {
+				// ID, because alphanumeric.
+				if(!Globals.containsKey(token))
+					Globals.put(token, 0);
+				ret.LexID = -1;
+				ret.doAction = new IntSupplier() { // returns from the global variables list.
+					@Override
+					public int getAsInt() {
+						return Globals.get(token); 
+					}
+				};
+			} else {
+				ret.LexID = -2;
+				ret.doAction = new IntSupplier() { // returns a const value.
+					
+					@Override
+					public int getAsInt() {
+						return Integer.parseInt(token);
+					}
+				};
+			}
+		} else {
+			ret.LexID = keywords.get(0).LexID;
+		}
+		return ret;
+	}
 }
