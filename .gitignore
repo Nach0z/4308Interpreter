@@ -2,6 +2,3 @@
 /.classpath
 .settings
 bin
-*.class
-*.xml
-*.iml
