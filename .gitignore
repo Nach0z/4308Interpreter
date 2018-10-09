@@ -2,15 +2,3 @@
 /.classpath
 .settings
 bin
-.idea/misc.xml
-.idea/modules.xml
-.idea/vcs.xml
-.idea/workspace.xml
-4308Interpreter.iml
-out/production/4308Interpreter/main/Interpreter.class
-out/production/4308Interpreter/util/LexAnalyzer$1.class
-out/production/4308Interpreter/util/LexAnalyzer$2.class
-out/production/4308Interpreter/util/LexAnalyzer.class
-out/production/4308Interpreter/util/Lexeme.class
-out/production/4308Interpreter/util/LexNode.class
-out/production/4308Interpreter/util/TokenProvider.class
