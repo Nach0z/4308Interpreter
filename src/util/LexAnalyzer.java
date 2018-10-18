@@ -5,11 +5,28 @@ import java.util.function.IntSupplier;
 import java.util.stream.Collectors;
 
 public class LexAnalyzer {
+	ArrayList<LexNode> allNodes = new ArrayList<LexNode>();
+	public LexAnalyzer(TokenProvider reader) {
+		init(reader);
+	}
+	
+	public void init(TokenProvider reader) {
+		String token = null;
+		while((token = reader.nextToken()) != null) {
+			LexNode node = GetNode(token);
+			if (node == null)
+				break;
+			System.out.println("Found node: " + node.LexID);
+			allNodes.add(node);
+		}
+	}
+	
+	public void parse(LexNode currentNode, int index) {
+		
+	}
 	public static HashMap<String, Integer> Globals = new HashMap<String, Integer>();
 	
 	public static List<Lexeme> allLexes = new ArrayList<Lexeme>(Arrays.asList(new Lexeme[]{
-		new Lexeme(null, -2), // Numerical constants
-		new Lexeme(null, -1), // IDs
 		new Lexeme("function", 1), // begin function
 		new Lexeme("(", 2), // open paren
 		new Lexeme(")", 3), // close paren
@@ -34,6 +51,13 @@ public class LexAnalyzer {
 		new Lexeme("\\", 22), // typo'd divide operator
 		new Lexeme("%", 23), // modulo operator
 		new Lexeme("^", 24), // exponent operator
+		new Lexeme(null, 25), // Numerical constants
+		new Lexeme(null, 26), // IDs
+		new Lexeme(null, 27), // block 
+		new Lexeme(null, 28), // statement
+		new Lexeme(null, 29), // general boolean statement
+		new Lexeme(null, 30), // iter
+		new Lexeme(null, 31), // arith expression
 	}));
 	public static LexNode GetNode(String token) {
 		List<Lexeme> keywords = allLexes.stream().filter(x -> x.LexToken != null && x.LexToken.equalsIgnoreCase(token)).collect(Collectors.toList());

@@ -11,17 +11,12 @@ public class Interpreter {
 		}
 			
 		try {
-			TokenProvider reader = new TokenProvider(args[0]);
-			String token = null;
 			LexNode rootNode = new LexNode();
+			LexAnalyzer analyzer = new LexAnalyzer(new TokenProvider(args[0]));
 			
-			while((token = reader.nextToken()) != null) {
-				LexAnalyzer analyzer = new LexAnalyzer();
-				LexNode node = analyzer.GetNode(token);
-				if (node == null)
-					break;
-				System.out.println("Found node: " + node.LexID);
-			}
+			analyzer.parse(rootNode, 0);
+			
+			
 		} catch (Exception e) {
 			System.out.println("Parsing broke! Something went wrong...");
 			e.printStackTrace();
