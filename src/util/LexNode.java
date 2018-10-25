@@ -9,6 +9,8 @@ public class LexNode {
 		// TODO deal with multi-option grammar blocks
 		ArrayList<ArrayList<Integer>> grammar = new ArrayList<ArrayList<Integer>>();
 		switch(thisNode) {
+		case 0:
+			Collections.addAll(grammar, new ArrayList<Integer>() {{ add(1); }});
 		case 1:
 			Collections.addAll(grammar, new ArrayList<Integer>() {{
 				add(1); 
