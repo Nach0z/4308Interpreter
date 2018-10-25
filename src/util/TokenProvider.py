@@ -1,4 +1,4 @@
-class TokenProvider:
+class TokenProvider: 	
 var currentLine = []
 
 except FileNotFoundError:

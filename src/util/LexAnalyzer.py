@@ -17,31 +17,31 @@ class LexAnalyzer:
 	
 	
 	
-	allLexes = [lexeme(null,0,false),
-				lexeme("Function",1,true),
-				lexeme("(",2,true),
-				lexeme(")",3,true),
-				lexeme("end",4,true),
-				lexeme("if",5,true), //still need to add things.
-				lexeme(null,6,true),
-				lexeme(null,7,true),
-				lexeme(null,8,true),
-				lexeme(null,9,true),
-				lexeme(null,10,true),
-				lexeme(null,11,true),
-				lexeme(null,12,false),
-				lexeme(null,13,false),
-				lexeme(null,14,false),
-				lexeme(null,15,false),
-				lexeme(null,16,false),
-				lexeme(null,17,false),
-				lexeme(null,18,false),
-				lexeme(null,19,false),
-				lexeme(null,20,false),
-				lexeme(null,21,false),
-				lexeme(null,22,false),
-				lexeme(null,23,false),
-				lexeme(null,24,false),
+	allLexes = [lexeme(null,0,false),  
+				lexeme("Function",1,true), 
+				lexeme("(",2,true),		
+				lexeme(")",3,true),		
+				lexeme("end",4,true),   
+				lexeme("if",5,true), 	
+				lexeme("else",6,true),  
+				lexeme("while",7,true),
+				lexeme("for",8,true),
+				lexeme("print",9,true),
+				lexeme(":",10,true),
+				lexeme("=",11,true),
+				lexeme("<=",12,false),
+				lexeme(">=",13,false),
+				lexeme("<",14,false),
+				lexeme(">",15,false),
+				lexeme("==",16,false),
+				lexeme("!=",17,false),
+				lexeme("+",18,false),
+				lexeme("-",19,false),
+				lexeme("*",20,false),
+				lexeme("/",21,false),
+				lexeme("\\",22,false),
+				lexeme("%",23,false),
+				lexeme("^",24,false),
 				lexeme(null,25,false),
 				lexeme(null,26,false),
 				lexeme(null,27,false),
@@ -53,4 +53,11 @@ class LexAnalyzer:
 				lexeme(null,33,false),
 				lexeme(null,34,false),
 				lexeme(null,35,false)]
+	
+	def GetNode(self, id):
+		//still have to do
+		
+	
+	
+	
 				
