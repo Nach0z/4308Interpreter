@@ -1,4 +1,4 @@
-class statement(object):
-    """description of class"""
+class statement:
+    """needs execution method"""
 
 
