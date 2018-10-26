@@ -6,13 +6,25 @@ class LexAnalyzer:
 	def __init__(self, reader)
 		init(reader)
 		
-	def init(reader):
+	def init(reader, allNodes = allNodes):
+		token = var
 		token = null
-		for x in range(0,3)
+		
 		while ((token = reader.nextToken()) != null):
-			//not finished here
-		
-		
+			node = GetNode(token)
+			if(node == null):
+				break
+			print("Found node: " + node.LexID)
+			allnodes.append(node)
+	
+	def parse(node = LexNode,  index):
+		nextNodeID = allNodes.get(index).LexID
+	
+	def searchSubTree(nodeID = int, target = int):
+		allStatments = LexNode.NodeGrammar(nodeID)
+		for x in range(0, allStaments[s]):
+			possible = statement[0]
+			if GetNode(possible).has
 		
 	
 	
