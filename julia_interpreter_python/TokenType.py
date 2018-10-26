@@ -1,30 +1,31 @@
+from enum import Enum
 class TokenType(Enum):
 
     def __init__(self):
-        self.ID = ID
-        self.LITERAL_INT = LITERAL_INT
-        self.LE_OP = LE_OP
-        self.LT_OP = LT_OP
-        self.GE_OP = GE_OP
-        self.GT_OP = GT_OP
-        self.FUNCTION = FUNCTION
-        self.ASSIGN_OP = ASSIGN_OP
-        self.EQ_OP = EQ_OP
-        self.NE_OP = NE_OP
-        self.ADD_OP = ADD_OP
-        self.SUB_OP = SUB_OP
-        self.MUL_OP = MUL_OP
-        self.DIV_OP = DIV_OP
-        self.MOD_OP = MOD_OP
-        self.REV_DIV_OP = REV_DIV_OP
-        self.EXP_OP = EXP_OP
-        self.FOR = FOR
-        self.IF = IF
-        self.END = END
-        self.WHILE = WHILE
-        self.LEFT_PAREN = LEFT_PAREN
-        self.RIGHT_PAREN = RIGHT_PAREN
-        self.EOS = EOS
+        self.ID = 1
+        self.LITERAL_INT = 2
+        self.LE_OP = 3
+        self.LT_OP = 4
+        self.GE_OP = 5
+        self.GT_OP = 6
+        self.FUNCTION = 7
+        self.ASSIGN_OP = 8
+        self.EQ_OP = 9
+        self.NE_OP = 10
+        self.ADD_OP = 11
+        self.SUB_OP = 12
+        self.MUL_OP = 13
+        self.DIV_OP = 14
+        self.MOD_OP = 15
+        self.REV_DIV_OP = 16
+        self.EXP_OP = 17
+        self.FOR = 18
+        self.IF = 19
+        self.END = 20
+        self.WHILE = 21
+        self.LEFT_PAREN = 22
+        self.RIGHT_PAREN = 23
+        self.EOS = 24
 
 
 
