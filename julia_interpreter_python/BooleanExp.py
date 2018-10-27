@@ -2,10 +2,8 @@ from julia_interpreter_python import relationop
 class BooleanExp(self):
     
     o = relationop
-    a
-    b
-
-    """don't know what to do about arithmetic expression object"""
+    a = int 
+    b = int 
     
     def __init__(self, operator, a, b):
         if op == null:
