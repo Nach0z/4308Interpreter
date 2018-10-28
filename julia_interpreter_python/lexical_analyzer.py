@@ -16,6 +16,18 @@ class lexical_analyzer:
             finally:
                 self.list_of_tokens.append(Token(TokenType.EOS, "EOS", row, 1))
 
+    def get_next_token(self):
+        if(not self.has_tokens()):
+            raise EmptyTokenListException("No more tokens")
+
+
+    def get_lookahead_token(self):
+        pass
+
+    def has_tokens(self):
+        if(len self.list_of_tokens == 0):
+            return false
+        return true
     # Got rid of get lexeme since it just separated based on whitespace
     def processLine(self, line, row):
         assert line != None
