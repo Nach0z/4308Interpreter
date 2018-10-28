@@ -1,41 +1,44 @@
-import Token
-import TokenType
+from Token import Token
+from TokenType import TokenType
 import re
+from enum import Enum
 
 class lexical_analyzer:
     list_of_tokens = []
     def __init__(self, file_name):
-        # Read file
+        # Read file, keep track of which line we're on
         with open(file_name, 'r') as f:
             row = 1
             try:
                 for line in f:
-                    processLine(line, row)
+                    self.processLine(line, row)
                     row = row + 1
             finally:
                 self.list_of_tokens.append(Token(TokenType.EOS, "EOS", row, 1))
 
     # Got rid of get lexeme since it just separated based on whitespace
-    def processLine(line, row):
-        assert line != null
-        assert rowNum > 0
+    def processLine(self, line, row):
+        assert line != None
+        assert row > 0
         # parse line into a list of ordered pairs (lexeme, starting index)
-        # Note: Found how to do this on SO
-        lexeme_pairs = [(m.group[0], m.start()) for m in re.finditer(r'\S+', line)]
+        # Note: Found how to do this at: 
+        #    https://stackoverflow.com/questions/13734451/string-split-with-indices-in-python 
+        lexeme_pairs = [(m.group(0), m.start() + 1) for m in re.finditer(r'\S+', line)]
         for (lex, index) in lexeme_pairs:
             # Process each lexeme into a token
-            lex = getTokenID(lex, row, index)
+            tid = self.getTokenID(lex, row, index)
             # Add processed token to the global token list
+            self.list_of_tokens.append(Token(tid, lex, row, index))
 
 
-    def getTokenID(lex,row,column):
-        assert lex != null
-        tid
+    def getTokenID(self, lex,row,column):
+        assert lex != None
+        tid = 0
         # TODO: Make this actually check if this identifier is a literal integer or invalid
         if(lex[0].isdigit()):
             for c in lex:
                 if(not c.isdigit()):
-                    raise ValueError("expected an integer literal at the location " + str(row) + str(column))
+                    raise ValueError("expected an integer literal at line " + str(row) + ":" + str(column))
                 tid = TokenType.LITERAL_INT
         elif lex[0].isalpha():
             if len(lex) == 1:
@@ -55,7 +58,7 @@ class lexical_analyzer:
             elif lex is "else": 
                 tid = TokenType.ELSE
             else:
-                raise ValueError("invalid identifier at ", str(row), str(column))
+                raise ValueError("invalid identifier at line " + str(row) + ":" + str(column))
         elif lex is "=":
             tid = TokenType.ASSIGN_OP
         elif lex is "<=":
@@ -83,18 +86,8 @@ class lexical_analyzer:
         elif lex is "^": 
             tid = TokenType.EXP_OP
         else: 
-            raise ValueError("Invalid lexeme at " + str(row) + str(column))
+            raise ValueError("Invalid lexeme at line " + str(row) + ":" + str(column))
         return tid
-
-
-    def noWhiteSpace(line, index):
-        assert line != null
-        assert index >= 0
-        line
-        current = index
-        while(current < line(s) and line[current].isspace()):
-            ++current
-        return current
 
     def digit(lex):
         assert lexeme != null
@@ -113,9 +106,9 @@ class lexical_analyzer:
             ++loc
         return line[index:loc]
 
+def main():
+    lexan = lexical_analyzer("test.txt")
+    print(lexan.list_of_tokens)
 
-def test_function():
-
-
-if(__name__ == "__main__"):
-    test_function()
+if __name__ == "__main__":
+    main()
