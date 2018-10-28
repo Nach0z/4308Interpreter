@@ -10,7 +10,7 @@ class Token(object):
         self.lex = lex
         if(row == None):
             raise ValueError("the row number is invalid")
-        self.row = tokenid
+        self.row = row
         if(column == None):
             raise ValueError("invalid column number")
         self.column = column
