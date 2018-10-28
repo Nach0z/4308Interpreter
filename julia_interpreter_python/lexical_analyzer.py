@@ -1,5 +1,6 @@
 from Token import Token
 from TokenType import TokenType
+from exceptions import *
 import re
 from enum import Enum
 
@@ -19,15 +20,19 @@ class lexical_analyzer:
     def get_next_token(self):
         if(not self.has_tokens()):
             raise EmptyTokenListException("No more tokens")
+        return self.list_of_tokens.pop(0)
 
 
     def get_lookahead_token(self):
-        pass
+        if(not self.has_tokens):
+            raise EmptyTokenListException("No more tokens")
+        return self.list_of_tokens[0]
 
     def has_tokens(self):
-        if(len self.list_of_tokens == 0):
+        if(len(self.list_of_tokens == 0)):
             return false
         return true
+
     # Got rid of get lexeme since it just separated based on whitespace
     def processLine(self, line, row):
         assert line != None
@@ -42,7 +47,6 @@ class lexical_analyzer:
             # Add processed token to the global token list
             self.list_of_tokens.append(Token(tid, lex, row, index))
 
-
     def getTokenID(self, lex,row,column):
         assert lex != None
         tid = 0
@@ -55,33 +59,33 @@ class lexical_analyzer:
         elif lex[0].isalpha():
             if len(lex) == 1:
                 tid = TokenType.ID
-            elif lex is "function":
+            elif lex == "function":
                 tid = TokenType.FUNCTION
-            elif lex is "end":
+            elif lex == "end":
                 tid = TokenType.END
-            elif lex is "if":
+            elif lex == "if":
                 tid = TokenType.IF
-            elif lex is "for":
+            elif lex == "for":
                 tid = TokenType.FOR
-            elif lex is "while": 
+            elif lex == "while": 
                 tid = TokenType.WHILE
-            elif lex is "print": 
+            elif lex == "print": 
                 tid = TokenType.PRINT
-            elif lex is "else": 
+            elif lex == "else": 
                 tid = TokenType.ELSE
             else:
                 raise ValueError("invalid identifier at line " + str(row) + ":" + str(column))
-        elif lex is "=":
+        elif lex == "=":
             tid = TokenType.ASSIGN_OP
-        elif lex is "<=":
+        elif lex == "<=":
             tid = TokenType.LE_OP
-        elif lex is "<":
+        elif lex == "<":
             tid = TokenType.LT_OP
-        elif lex is ">=":
+        elif lex == ">=":
             tid = TokenType.GE_OP
-        elif lex is "==":
+        elif lex == "==":
             tid = TokenType.EQ_OP
-        elif lex is "!=":
+        elif lex == "!=":
             tid = TokenType.NE_OP
         elif lex is "+":
             tid = TokenType.ADD_OP
@@ -93,8 +97,12 @@ class lexical_analyzer:
             tid = TokenType.DIV_OP
         elif lex is "%":
             tid = TokenType.MOD_OP
-        elif lex is "\\":
+        elif lex == "\\":
             tid = TokenType.REV_DIV_OPP
+        elif lex == "(":
+            tid = TokenType.LEFT_PAREN
+        elif lex == ")":
+            tid = TokenType.RIGHT_PAREN
         elif lex is "^": 
             tid = TokenType.EXP_OP
         else: 

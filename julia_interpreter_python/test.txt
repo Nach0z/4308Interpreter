@@ -1,3 +1,4 @@
-a = 0
-b = 1
-c = 234
+function a ( ) 
+	t = 1
+	print ( t ) 
+	end

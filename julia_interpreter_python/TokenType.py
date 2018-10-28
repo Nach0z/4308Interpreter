@@ -22,9 +22,11 @@ class TokenType(Enum):
     IF = 19
     END = 20
     WHILE = 21
-    LEFT_PAREN = 22
-    RIGHT_PAREN = 23
-    EOS = 24
+    PRINT = 22
+    LEFT_PAREN = 23
+    RIGHT_PAREN = 24
+    EOS = 25
+
 
 
 
