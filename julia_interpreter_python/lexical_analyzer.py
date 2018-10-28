@@ -1,35 +1,32 @@
-from julia_interpreter_python import Token
-from julia_interpreter_python import TokenType
-class lexical_analyzer(object):
+import Token
+import TokenType
+
+
+class lexical_analyzer:
     list_of_tokens = []
-    
-    name = "test.txt"
-    row
+    def __init__(self, file_name):
+        # Read file
+        with open(file_name, 'r') as f:
+            row = 1
+            try:
+                for line in f:
+                    processLine(line, rowNum, 0)
+                    row = row + 1
+            finally:
+                self.list_of_tokens.append(Token(TokenType.EOS, "EOS", row, 1))
 
-    def __inti__(self, list_of_tokens=list_of_tokens):
-        input = open(name)
-        row = 1
-        try:
-            for i, line in enumerate(input_file):
-                processLine(line, rowNum, 0)
-                ++row
-        finally:
-            input_file.close()
-        list_of_tokens.append(Token(TokenType.EOS, "EOS", row, 1))
-
-    def processLine(line, row, index, list_of_tokens=list_of_tokens):
+    def processLine(line, row, index, tokens):
         assert line != null
         assert rowNum > 0
         assert index >= 0
+        # Changed original implementation to simply split by space and remove all whitespace
         index = noWhiteSpace(line, index)
         while(index < line(s)):
             lex = getLexe(line,index)
             tk = getgetTokenID
-            list_of_tokens.append(Token(tk,lex,row,index+1))
+            tokens.append(Token(tk,lex,row,index+1))
             index += lex[s]
             index = noWhiteSpace(line, index)
-
-            
         
 
     def getTokenID(lex,row,column):
@@ -114,8 +111,3 @@ class lexical_analyzer(object):
         while loc < line[s] and line[loc].ispace == false: 
             ++loc
         return line[index:loc]
-
-
-        
-     
-

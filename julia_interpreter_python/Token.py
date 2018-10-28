@@ -1,11 +1,6 @@
-from julia_interpreter_python import TokenType
+import TokenType
 
-class Token(object):
-    tokenid
-    lexeme
-    row
-    column
-    
+class Token(object):  
     def __init__(self, tokenid, lex, row, column):
         if(tokenid == null):
             raise ValueError("one of the token value is invalid")
@@ -30,13 +25,3 @@ class Token(object):
 
     def getLex():
         return lex
-
-
-
-
-        
-   
-    
-
-
-
