@@ -1,6 +1,5 @@
 class ID:
 	# Simulated memory using dictionary - may not work right
-	# Note: ID.memory must be imported and referenced in the for loop and assignment stmt code
 	memory = {}
 	def __init__(self, lex):
 		if(lex == None):
@@ -10,7 +9,7 @@ class ID:
 		self.lex = lex
 
 	def evaluate(self):
-		return memory[self.lex]
+		return ID.memory[self.lex]
 
 	def get_lexeme(self):
 		return self.lex

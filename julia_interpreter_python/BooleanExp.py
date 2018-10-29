@@ -6,15 +6,15 @@ class BooleanExp:
         if(op == None):
             raise ValueError("Null relational operator argument")
         self.op = op
-        if(expr1 == None):
+        if(a == None):
             raise ValueError("Null relational operator argument")
-        self.first = expr1
-        if(expr2 == None):
+        self.first = a
+        if(b == None):
             raise ValueError("Null relational operator argument")
-        self.second = expr2
+        self.second = b
 
-    def evaluate():
-        boolean = false 
+    def evaluate(self):
+        boolean = False 
         if(self.op == bops.EQ):
             boolean = self.first.evaluate() == self.second.evaluate()
         elif(self.op == bops.NE):

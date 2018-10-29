@@ -37,7 +37,7 @@ class Parser:
 		self.__match__(token, TokenType.END)
 		token = self.lex.get_next_token()
 		if (token.get_token_type() != TokenType.EOS):
-			raise ParseException("Garbage at end of program at " + + str(row) + ":" + str(column))
+			raise ParseException("Garbage at end of program")
 		return Program(function_name, block)
 
 	def __get_block__(self):
@@ -180,25 +180,26 @@ class Parser:
 
 	def __get_relational_op__(self):
 		token = self.lex.get_next_token()
+		print(token)
 		if(not self.__is_relational_op__(token.get_token_type())):
-			raise ParseException("Expected relational operator at line: "+ str(token.get_row) + ":" + str(token.get_col) )
+			raise ParseException("Expected relational operator at line: "+ str(token.get_row()) + ":" + str(token.get_col()) )
 		op = None
-		if(token.get_token_type() == TokenType.EQ):
+		if(token.get_token_type() == TokenType.EQ_OP):
 			op = rops.EQ
-		elif(token.get_token_type() == TokenType.NE):
+		elif(token.get_token_type() == TokenType.NE_OP):
 			op = rops.NE
-		elif(token.get_token_type() == TokenType.LT):
+		elif(token.get_token_type() == TokenType.LT_OP):
 			op = rops.LT
-		elif(token.get_token_type() == TokenType.LE):
+		elif(token.get_token_type() == TokenType.LE_OP):
 			op = rops.LE
-		elif(token.get_token_type() == TokenType.GT):
+		elif(token.get_token_type() == TokenType.GT_OP):
 			op = rops.GT
 		else:
 			op = rops.GE
 		return op
 
 	def __is_relational_op__(self, op):
-		return (op == TokenType.EQ or op == TokenType.NE or	op == TokenType.GT or op == TokenType.GE or op == TokenType.LT or op == TokenType.LE )
+		return (op == TokenType.EQ_OP or op == TokenType.NE_OP or	op == TokenType.GT_OP or op == TokenType.GE_OP or op == TokenType.LT_OP or op == TokenType.LE_OP )
 
 
 	def __is_valid_start_of_stmt__(self, op):

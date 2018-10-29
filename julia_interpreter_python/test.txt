@@ -1,4 +1,6 @@
 function a ( ) 
-	t = 4
-	print ( t ) 
+	while == 4 t
+	t = t - 1
+	print ( 2 ) 
 	end
+    end
