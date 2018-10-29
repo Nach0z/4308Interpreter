@@ -104,8 +104,10 @@ class lexical_analyzer:
             tid = TokenType.LEFT_PAREN
         elif lex == ")":
             tid = TokenType.RIGHT_PAREN
-        elif lex is "^": 
+        elif lex == "^": 
             tid = TokenType.EXP_OP
+        elif lex == ":":
+            tid = TokenType.COLON
         else: 
             raise ValueError("Invalid lexeme at line " + str(row) + ":" + str(column))
         return tid

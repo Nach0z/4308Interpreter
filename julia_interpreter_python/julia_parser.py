@@ -167,9 +167,9 @@ class Parser:
 
 	def __get_iter__(self):
 		expr1 = self.__get_arith_expr__()
-		token = lex.get_next_token()
+		token = self.lex.get_next_token()
 		self.__match__(token, TokenType.COLON)
-		expr2 = __get_arith_expr__()
+		expr2 = self.__get_arith_expr__()
 		return Iter(expr1, expr2)
 
 	def __get_bool_expr__(self):

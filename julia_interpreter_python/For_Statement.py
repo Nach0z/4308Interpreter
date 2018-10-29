@@ -14,9 +14,9 @@ class For_Statement:
 
 	def execute(self):
 		# Store the loop variable in the memory dictionary
-		start = loop.get_start_expr().evaluate()
+		start = self.loop.get_start_expr().evaluate()
 		ID.memory[self.var.get_lexeme()] = start
-		end = loop 
+		end = self.loop.get_end_expr().evaluate()
 		while(start <= end):
 			self.body.execute()
 			start = start + 1

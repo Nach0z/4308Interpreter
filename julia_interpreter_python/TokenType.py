@@ -27,6 +27,7 @@ class TokenType(Enum):
     RIGHT_PAREN = 24
     EOS = 25
     ELSE = 26
+    COLON = 27
 
 
 
