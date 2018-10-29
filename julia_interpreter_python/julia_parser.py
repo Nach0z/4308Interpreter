@@ -3,6 +3,8 @@ from Id import ID
 from Block import Block
 from BinaryExp import BinaryExp
 from BooleanExp import BooleanExp
+from For_Statement import For_Statement as for_stmt
+from if_statement import if_statement as if_stmt
 from iter import Iter
 from litera_int import literal_int
 from relationop import relationop as rops
@@ -82,12 +84,32 @@ class Parser:
 		return PrintStatement(arg)
 
 
-
+		#TODO: FINISH FOR STATEMENT CLASS /MEM LOADING
 	def __get_for_stmt__(self):
-		pass
+		token = self.lex.get_next_token()
+		match(token, TokenType.FOR)
+		loopvar = self.__get_id__()
+		token = self.lex.get_next_token()
+		match(token, TokenType.ASSIGN_OP)
+		loop = self.__get_iter__()
+		block = self.__get_block__()
+		token = self.lex.get_next_token()
+		match(token, TokenType.END)
+		return ForS
+
 
 	def __get_if_stmt__(self):
-		pass
+		token = self.lex.get_next_token()
+		match(token, TokenType.IF)
+		expr = self.__get_bool_expr__()
+		block = self.__get_block__()
+		token = self.lex.get_next_token()
+		mathc(token, TokenType.ELSE)
+		elseblock = self.__get_block__()
+		token = self.lex.get_next_token()
+		match(token, TokenType.END)
+		return if_stmt(expr, block, elseblock)
+
 
 	def __get_arith_expr__(self):
 		expr = None
