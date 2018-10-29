@@ -6,7 +6,7 @@ from BooleanExp import BooleanExp
 from For_Statement import For_Statement as for_stmt
 from if_statement import if_statement as if_stmt
 from iter import Iter
-from litera_int import literal_int
+from literal_int import literal_int
 from relationop import relationop as rops
 from while_statement import while_statement as w_stmt
 from ArithmeticOperators import ArithmeticOperators as ao
@@ -49,7 +49,7 @@ class Parser:
 			stmt = self.__get_if_stmt__()
 		elif(token.get_token_type == TokenType.FOR):
 			stmt = self.__get_for_stmt__()
-		elif(token.get_token_type == TokenType.PRINT)
+		elif(token.get_token_type == TokenType.PRINT):
 			stmt = self.__get_print_stmt__()
 		elif(token.get_token_type == TokenType.WHILE):
 			stmt = self.__get_while_stmt__()
@@ -84,7 +84,6 @@ class Parser:
 		return PrintStatement(arg)
 
 
-		#TODO: FINISH FOR STATEMENT CLASS /MEM LOADING
 	def __get_for_stmt__(self):
 		token = self.lex.get_next_token()
 		match(token, TokenType.FOR)
@@ -95,7 +94,7 @@ class Parser:
 		block = self.__get_block__()
 		token = self.lex.get_next_token()
 		match(token, TokenType.END)
-		return ForS
+		return for_stmt(loopvar, loop, block)
 
 
 	def __get_if_stmt__(self):
@@ -150,15 +149,12 @@ class Parser:
 		return op
 
 	def __is_arith_op__(self, op):
-		return op == TokenType.ADD or op == TokenType.SUB or
-		 		op == TokenType.MUL or op == TokenType.DIV or
-				op == TokenType.MOD or op == TokenType.EXP or 
-				op == TokenType.REV_DIV
+		return op == TokenType.ADD or op == TokenType.SUB or op == TokenType.MUL or op == TokenType.DIV or op == TokenType.MOD or op == TokenType.EXP or op == TokenType.REV_DIV
 
 	def __get_literal_int__(self):
 		token = self.lex.get_next_token()
 		if(token.get_token_type() != TokenType.LIT_INT):
-			raise new ParseException("Literal integer expected at line: "+ str(token.get_row) + ":" + str(token.get_col) )
+			raise ParseException("Literal integer expected at line: "+ str(token.get_row()) + ":" + str(token.get_col()) )
 		return LiteralInteger(int(token.get_lex())) 
 
 	def __get_iter__(self):
@@ -176,7 +172,7 @@ class Parser:
 
 	def __get_relational_op__(self):
 		token = self.lex.get_next_token()
-		if(!self.__is_relational_op__(token.get_token_type())):
+		if(not self.__is_relational_op__(token.get_token_type())):
 			raise ParseException("Expected relational operator at line: "+ str(token.get_row) + ":" + str(token.get_col) )
 		op = None
 		if(token.get_token_type() == TokenType.EQ):
@@ -194,15 +190,11 @@ class Parser:
 		return op
 
 	def __is_relational_op__(self, op):
-	return op == TokenType.EQ or op == TokenType.NE or
-		 	op == TokenType.GT or op == TokenType.GE or
-			op == TokenType.LT or op == TokenType.LE 
+		return (op == TokenType.EQ or op == TokenType.NE or	op == TokenType.GT or op == TokenType.GE or op == TokenType.LT or op == TokenType.LE )
 
 
 	def __is_valid_start_of_stmt__(self, op):
-		return op == TokenType.IF or op == TokenType.FOR or
-		 		op == TokenType.WHILE or op == TokenType.PRINT or
-				op == TokenType.ID
+		return op == TokenType.IF or op == TokenType.FOR or op == TokenType.WHILE or op == TokenType.PRINT or op == TokenType.ID
 
 	def __get_id__(self):
 		token = lex.get_next_token()

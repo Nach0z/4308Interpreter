@@ -1,5 +1,5 @@
 from enum import Enum
-class relationop(enum):
+class relationop(Enum):
         EQ = 36
         NE = 32
         LT = 38

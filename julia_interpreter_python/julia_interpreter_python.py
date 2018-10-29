@@ -1,5 +1,6 @@
 import sys
 import os.path
+from Id import ID
 import julia_parser
 from exceptions import *
 
@@ -17,14 +18,16 @@ def main():
 		p = julia_parser.Parser(name)
 		program = p.parse()
 		program.execute()
+		print("Elements of memory dictionary: ")
+		print(ID.memory.iter())
 	except ParseException as e:
-		# Handle a parse exception
+		print(str(e))
 		pass
 	except LexicalException as e:
-		# handle lex exceptions
+		print(str(e))
 		pass
 	except EmptyTokenListException as e:
-		# handle empty token list
+		print(str(e))
 		pass
 
 
