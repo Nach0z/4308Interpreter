@@ -10,7 +10,7 @@ class TokenType(Enum):
     FUNCTION = 7
     ASSIGN_OP = 8
     EQ_OP = 9
-    NE_OP = 10
+    NE_OP= 10
     ADD_OP = 11
     SUB_OP = 12
     MUL_OP = 13
@@ -26,6 +26,7 @@ class TokenType(Enum):
     LEFT_PAREN = 23
     RIGHT_PAREN = 24
     EOS = 25
+    ELSE = 26
 
 
 

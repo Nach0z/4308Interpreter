@@ -140,24 +140,24 @@ class Parser:
 		op = None
 		if(not self.__is_arith_op__(token.get_token_type())):
 			raise ParseException("Expected arithmetic operator at line: " + str(token.get_row) + ":" + str(token.get_col) )
-		if(token.get_token_type() == TokenType.ADD):
-			op = ao.ADD_OP
-		elif(token.get_token_type() == TokenType.SUB):
-			op = ao.SUB_OP
-		elif(token.get_token_type() == TokenType.MUL):
-			op = ao.MUL_OP
-		elif(token.get_token_type() == TokenType.DIV):
-			op = ao.DIV_OP
-		elif(token.get_token_type() == TokenType.MOD):
-			op = ao.MOD_OP
-		elif(token.get_token_type() == TokenType.EXP):
-			op = ao.EXP_OP
+		if(token.get_token_type() == TokenType.ADD_OP):
+			op = ao.ADD
+		elif(token.get_token_type() == TokenType.SUB_OP):
+			op = ao.SUB
+		elif(token.get_token_type() == TokenType.MUL_OP):
+			op = ao.MUL
+		elif(token.get_token_type() == TokenType.DIV_OP):
+			op = ao.DIV
+		elif(token.get_token_type() == TokenType.MOD_OP):
+			op = ao.MOD
+		elif(token.get_token_type() == TokenType.EXP_OP):
+			op = ao.EXP
 		else:
-			op = ao.REV_DIV_OP
+			op = ao.REV_DIV
 		return op
 
 	def __is_arith_op__(self, op):
-		return op == TokenType.ADD or op == TokenType.SUB or op == TokenType.MUL or op == TokenType.DIV or op == TokenType.MOD or op == TokenType.EXP or op == TokenType.REV_DIV
+		return op == TokenType.ADD_OP or op == TokenType.SUB_OP or op == TokenType.MUL_OP or op == TokenType.DIV_OP or op == TokenType.MOD_OP or op == TokenType.EXP_OP or op == TokenType.REV_DIV_OP
 
 	def __get_literal_int__(self):
 		token = self.lex.get_next_token()
@@ -180,7 +180,6 @@ class Parser:
 
 	def __get_relational_op__(self):
 		token = self.lex.get_next_token()
-		print(token)
 		if(not self.__is_relational_op__(token.get_token_type())):
 			raise ParseException("Expected relational operator at line: "+ str(token.get_row()) + ":" + str(token.get_col()) )
 		op = None

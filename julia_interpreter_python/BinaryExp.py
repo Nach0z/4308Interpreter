@@ -4,29 +4,29 @@ class BinaryExp(object):
     def __init__(self, operator, left, right):
     	if(operator == None):
     		raise ValueError("Null operator arg")
-    	this.op = operator
+    	self.op = operator
     	if(left == None):
     		raise ValueError("No left argument given")
-    	this.left = left
+    	self.left = left
     	if(right == None):
     		raise ValueError("No right argument given")
-    	this.right = right
+    	self.right = right
 
     def evaluate(self):
-    	if(self.op == ao.ADD_OP):
-    		return self.left + self.right
-    	elif(self.op == ao.SUB_OP):
-    		return self.left - self.right
-    	elif(self.op == ao.MUL_OP):
-    		return self.left * self.right
-    	elif(self.op == ao.DIV_OP):
-    		return self.left / self.right
-    	elif(self.op == ao.MOD_OP):
-    		return self.left % self.right
-    	elif(self.op == ao.REV_DIV_OP):
-    		return self.right / self.left
-    	elif(self.op == ao.EXP_OP):
-    		return self.left ** self.right
+    	if(self.op == ao.ADD):
+    		return self.left.evaluate() + self.right.evaluate()
+    	elif(self.op == ao.SUB):
+    		return self.left.evaluate() - self.right.evaluate()
+    	elif(self.op == ao.MUL):
+    		return self.left.evaluate() * self.right.evaluate()
+    	elif(self.op == ao.DIV):
+    		return self.left.evaluate() / self.right.evaluate()
+    	elif(self.op == ao.MOD):
+    		return self.left.evaluate() % self.right.evaluate()
+    	elif(self.op == ao.REV_DIV):
+    		return self.right.evaluate() / self.left.evaluate()
+    	elif(self.op == ao.EXP):
+    		return self.left.evaluate() ** self.right.evaluate()
     	else:
     		return 0
 

@@ -1,5 +1,5 @@
 class if_statement:
-	def __init(self, condition, if_block, else_block):
+	def __init__(self, condition, if_block, else_block):
 		if(condition == None):
 			raise ValueError("Null condition argument")
 		self.condition = condition
@@ -11,7 +11,7 @@ class if_statement:
 		self.else_block = else_block
 
 	def execute(self):
-		if(self.expr.evaluate()):
+		if(self.condition.evaluate()):
 			self.if_block.execute()
 		else:
 			self.else_block.execute()

@@ -80,6 +80,8 @@ class lexical_analyzer:
             tid = TokenType.LE_OP
         elif lex == "<":
             tid = TokenType.LT_OP
+        elif lex == ">":
+            tid = TokenType.GT_OP
         elif lex == ">=":
             tid = TokenType.GE_OP
         elif lex == "==":

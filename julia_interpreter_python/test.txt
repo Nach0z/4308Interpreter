@@ -1,6 +1,11 @@
 function a ( ) 
-	while == 4 t
-	t = t - 1
-	print ( 2 ) 
+	t = 4
+	while >= t 1
+	if ==  % t 2 0 
+	print ( t ) 
+	else
+		print ( 0 ) 
+	end
+	t = - t 1
 	end
     end

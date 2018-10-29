@@ -1,11 +1,11 @@
 from enum import Enum
 class ArithmeticOperators(Enum):
-        ADDITION = 25
-        SUBTRACTION = 26
-        MULTIPlICATION = 27
-        REVERSE_DIVISION = 28
-        DIVISION = 29
-        MODULAR = 30 
+        ADD = 25
+        SUB = 26
+        MUL = 27
+        REV_DIV = 28
+        DIV = 29
+        MOD = 30 
         EXP = 31
 
 
