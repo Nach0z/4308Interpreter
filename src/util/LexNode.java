@@ -64,6 +64,13 @@ public class LexNode {
 			Collections.addAll(grammar, new ArrayList<Integer>() {{add(9);}});
 			Collections.addAll(grammar, new ArrayList<Integer>() {{add(8);}});
 			break;
+			
+		case 29:
+			Collections.addAll(grammar,  new ArrayList<Integer>() {{
+				add(35);
+				add(31);
+				add(31);
+			}});
 		case 31:
 			Collections.addAll(grammar, new ArrayList<Integer>() {{add(26);}});
 			Collections.addAll(grammar, new ArrayList<Integer>() {{add(25);}});
@@ -92,6 +99,13 @@ public class LexNode {
 			Collections.addAll(grammar, new ArrayList<Integer>() {{add(23);}});
 			Collections.addAll(grammar, new ArrayList<Integer>() {{add(24);}});
 			break;
+		case 35:
+			Collections.addAll(grammar, new ArrayList<Integer>() {{ add(12);}});
+			Collections.addAll(grammar, new ArrayList<Integer>() {{ add(13);}});
+			Collections.addAll(grammar, new ArrayList<Integer>() {{ add(14);}});
+			Collections.addAll(grammar, new ArrayList<Integer>() {{ add(15);}});
+			Collections.addAll(grammar, new ArrayList<Integer>() {{ add(16);}});
+			Collections.addAll(grammar, new ArrayList<Integer>() {{ add(17);}});
 		case -1:
 		case -2:
 		case 4:

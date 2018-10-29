@@ -13,10 +13,7 @@ public class Interpreter {
 		try {
 			LexNode rootNode = new LexNode();
 			LexAnalyzer analyzer = new LexAnalyzer(new TokenProvider(args[0]));
-			
-			analyzer.parse(rootNode, 0);
-			
-			
+			analyzer.parse(rootNode);
 		} catch (Exception e) {
 			System.out.println("Parsing broke! Something went wrong...");
 			e.printStackTrace();
