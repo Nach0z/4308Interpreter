@@ -1,4 +1,6 @@
-class literal_int(object):
-    """description of class"""
+class literal_int:
+	def __init(self, value):
+		self.value = value
 
-
+	def evaluate(self):
+		return self.value

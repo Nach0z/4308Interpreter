@@ -1,35 +1,31 @@
-from julia_interpreter_python import relationop
-class BooleanExp(self):
-    
-    o = relationop
-    a = int 
-    b = int 
-    
-    def __init__(self, operator, a, b):
-        if op == null:
-            raise ValueError("operator does not value")
-        self.o = operator
-        
-        if a == null:
-            raise ValueError("the first expression does not have a value")
-        self.a = a
+from relationop import relationop as bops
 
-        if b == null:
-            raise ValueError("the secound does not have a value")
+class BooleanExp:
+
+    def __init__(self, op, a, b):
+        if(op == None):
+            raise ValueError("Null relational operator argument")
+        self.op = op
+        if(expr1 == None):
+            raise ValueError("Null relational operator argument")
+        self.first = expr1
+        if(expr2 == None):
+            raise ValueError("Null relational operator argument")
+        self.second = expr2
 
     def evaluate():
         boolean = false 
-        if(o == 36):
-            boolean = a.evaluate() == b.evaluate()
-        elif(o == 37):
-            boolean = a.evaluate() != b.evaluate()
-        elif(o == 38):
-            boolean = a.evaluate() < b.evaluate()
-        elif(o == 39):
-            boolean = a.evaluate() <= b.evaluate()
-        elif(o == 40):
-            boolean = a.evaluate() > b.evaluate()
-        elif(o == 41):
-            boolean = a.evaluate() >= b.evaluate()
+        if(self.op == bops.EQ):
+            boolean = self.first.evaluate() == self.second.evaluate()
+        elif(self.op == bops.NE):
+            boolean = self.first.evaluate() != self.second.evaluate()
+        elif(self.op == bops.LT):
+            boolean = self.first.evaluate() < self.second.evaluate()
+        elif(self.op == bops.LE):
+            boolean = self.first.evaluate() <= self.second.evaluate()
+        elif(self.op == bops.GT):
+            boolean = self.first.evaluate() > self.second.evaluate()
+        elif(self.op == bops.GE):
+            boolean = self.first.evaluate() >= self.second.evaluate()
         return boolean
 

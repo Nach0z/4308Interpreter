@@ -1,13 +1,11 @@
 from enum import Enum
 class relationop(enum):
-    
-    def __init__(self):
-        self.EQ = 36
-        self.NE = 32
-        self.LT = 38
-        self.LE = 39
-        self.OP = 40
-        self.GT = 41
-        self.GE = 42
+        EQ = 36
+        NE = 32
+        LT = 38
+        LE = 39
+        OP = 40
+        GT = 41
+        GE = 42
 
 

@@ -1,6 +1,13 @@
 from exceptions import *
 from Id import ID
 from Block import Block
+from BinaryExp import BinaryExp
+from BooleanExp import BooleanExp
+from iter import Iter
+from litera_int import literal_int
+from relationop import relationop as rops
+from while_statement import while_statement as w_stmt
+from ArithmeticOperators import ArithmeticOperators as ao
 from TokenType import TokenType
 from lexical_analyzer import lexical_analyzer
 
@@ -23,7 +30,7 @@ class Parser:
 		if (tok.getTokenType != TokenType.EOS):
 			raise ParseException("Garbage at end of program at " + + str(row) + ":" + str(column))
 
-	def __get_block__():
+	def __get_block__(self):
 		token = None
 		block = Block()
 		while True:
@@ -33,7 +40,7 @@ class Parser:
 				break
 		return block
 
-	def __get_stmt__():
+	def __get_stmt__(self):
 		stmt = None
 		token = self.lex.get_lookahead_token()
 		if(token.get_token_type == TokenType.IF):
@@ -48,56 +55,134 @@ class Parser:
 			stmt = self.__get_assign_stmt__()
 		return stmt
 
-	def __get_assign_stmt__():
+	def __get_assign_stmt__(self):
 		id = self.__get_id__()
 		token = self.lex.get_next_token()
 		match(token, TokenType.ASSIGN_OP)
 		expr = self.__get_arith_expr__()
 		return Assignment
 
-	def __get_while_stmt__():
+	def __get_while_stmt__(self):
+		token = self.lex.get_next_token()
+		match(token, TokenType.WHILE)
+		expr = self.__get_bool_expr__()
+		block = self.__get_block__()
+		token = self.lex.get_next_token()
+		match(token, TokenType.END)
+		return w_stmt(expr, block)
+
+	def __get_print_stmt__(self):
+		token = self.lex.get_next_token()
+		match(token, TokenType.PRINT)
+		token = self.lex.get_next_token()
+		match(token, TokenType.LEFT_PARE)
+		arg = self.__get_arith_expr__()
+		token = self.lex.get_next_token()
+		match(token, TokenType.RIGHT_PAREN)
+		return PrintStatement(arg)
+
+
+
+	def __get_for_stmt__(self):
 		pass
 
-	def __get_print_stmt__():
+	def __get_if_stmt__(self):
 		pass
 
-	def __get_for_stmt__():
-		pass
+	def __get_arith_expr__(self):
+		expr = None
+		token = self.lex.get_lookahead_token()
+		if(token.get_token_type() == TokenType.ID):
+			expr = self.__get_id__()
+		elif(token.get_token_type() == TokenType.LIT_INT):
+			expr = self.__get_literal_int__()
+		else:
+			expr = self.__get_binary_expr__()
+		return expr
 
-	def __get_if_stmt__():
-		pass
+	def __get_binary_expr__(self):
+		op = self.__get_arith_op__()
+		left = self.__get_arith_expr__()
+		right = self.__get_arith_expr__()
+		return BinaryExp(op, left, right)
 
-	def __get_arith_expr__():
-		pass
+	def __get_arith_op__(self):
+		token = self.lex.get_next_token()
+		op = None
+		if(not self.__is_arith_op__(token.get_token_type())):
+			raise ParseException("Expected arithmetic operator at line: " + str(token.get_row) + ":" + str(token.get_col) )
+		if(token.get_token_type() == TokenType.ADD):
+			op = ao.ADD_OP
+		elif(token.get_token_type() == TokenType.SUB):
+			op = ao.SUB_OP
+		elif(token.get_token_type() == TokenType.MUL):
+			op = ao.MUL_OP
+		elif(token.get_token_type() == TokenType.DIV):
+			op = ao.DIV_OP
+		elif(token.get_token_type() == TokenType.MOD):
+			op = ao.MOD_OP
+		elif(token.get_token_type() == TokenType.EXP):
+			op = ao.EXP_OP
+		else:
+			op = ao.REV_DIV_OP
+		return op
 
-	def __get_binary_expr__():
-		pass
+	def __is_arith_op__(self, op):
+		return op == TokenType.ADD or op == TokenType.SUB or
+		 		op == TokenType.MUL or op == TokenType.DIV or
+				op == TokenType.MOD or op == TokenType.EXP or 
+				op == TokenType.REV_DIV
 
-	def __get_arith_op__():
-		pass
+	def __get_literal_int__(self):
+		token = self.lex.get_next_token()
+		if(token.get_token_type() != TokenType.LIT_INT):
+			raise new ParseException("Literal integer expected at line: "+ str(token.get_row) + ":" + str(token.get_col) )
+		return LiteralInteger(int(token.get_lex())) 
 
-	def __is_arith_op__():
-		return false
+	def __get_iter__(self):
+		expr1 = self.__get_arith_expr__()
+		token = lex.get_next_token()
+		match(token, TokenType.COLON)
+		expr2 = __get_arith_expr__()
+		return Iter(expr1, expr2)
 
-	def __get_literal_int__():
-		pass
+	def __get_bool_expr__(self):
+		op = self.__get_relational_op__()
+		expr1 = self.__get_arith_expr__()
+		expr2 = self.__get_arith_expr__()
+		return BooleanExp(op, expr1, expr2)
 
-	def __get_iter__():
-		pass
+	def __get_relational_op__(self):
+		token = self.lex.get_next_token()
+		if(!self.__is_relational_op__(token.get_token_type())):
+			raise ParseException("Expected relational operator at line: "+ str(token.get_row) + ":" + str(token.get_col) )
+		op = None
+		if(token.get_token_type() == TokenType.EQ):
+			op = rops.EQ
+		elif(token.get_token_type() == TokenType.NE):
+			op = rops.NE
+		elif(token.get_token_type() == TokenType.LT):
+			op = rops.LT
+		elif(token.get_token_type() == TokenType.LE):
+			op = rops.LE
+		elif(token.get_token_type() == TokenType.GT):
+			op = rops.GT
+		else:
+			op = rops.GE
+		return op
 
-	def __get_bool_expr__():
-		pass
+	def __is_relational_op__(self, op):
+	return op == TokenType.EQ or op == TokenType.NE or
+		 	op == TokenType.GT or op == TokenType.GE or
+			op == TokenType.LT or op == TokenType.LE 
 
-	def __get_relational_op__():
-		pass
 
-	def __is_relational_op__():
-		pass
+	def __is_valid_start_of_stmt__(self, op):
+		return op == TokenType.IF or op == TokenType.FOR or
+		 		op == TokenType.WHILE or op == TokenType.PRINT or
+				op == TokenType.ID
 
-	def __is_valid_start_of_stmt__():
-		pass
-
-	def __get_id__():
+	def __get_id__(self):
 		token = lex.get_next_token()
 		self.__match__(token, TokenType.ID)
 		return ID(token.get_lex)
