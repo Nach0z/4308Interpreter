@@ -1,15 +1,17 @@
-from julia_interpreter_python import statement
-class Block(self):
+class Block:
 
     def __init__(self):
-        statementlist = []
+        self.stmt_list = []
 
-    def getlist(self, statementlist=statementlist):
-        return statementlist
+    def get_list(self):
+        return self.stmt_list
 
-    def addtolist(stat, statementlist=statementlist):
-        statementlist.append(stat)
+    def add(stat):
+        self.stmt_list.append(stat)
 
+    def execute(self):
+    	for stmt in self.stmt_list:
+    		stmt.execute()
 
 
 

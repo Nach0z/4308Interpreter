@@ -1,6 +1,6 @@
 import TokenType
 
-class Token(object):  
+class Token:  
     def __init__(self, tokenid, lex, row, column):
         if(tokenid == None):
             raise ValueError("one of the token value is invalid")
@@ -15,16 +15,17 @@ class Token(object):
             raise ValueError("invalid column number")
         self.column = column
 
-    def getTokenID():
-        return tokenid
+    def get_token_type(self):
+        return self.tokenid
 
-    def getRow():
-        return row
-    def getColumn():
-        return column
+    def get_row(self):
+        return self.row
 
-    def getLex():
-        return lex
+    def get_col(self):
+        return self.column
+
+    def get_lex(self):
+        return self.lex
 
     # str method for testing
     def __repr__(self):

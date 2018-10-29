@@ -1,5 +1,8 @@
 import sys
 import os.path
+import julia_parser
+from exceptions import *
+
 def main():
 	name = ""
 	try:
@@ -11,7 +14,7 @@ def main():
 		print("Specified input file not found.")
 		sys.exit()
 	try:
-		p = Parser()
+		p = julia_parser.Parser(name)
 		program = p.parse()
 		program.execute()
 	except ParseException as e:
@@ -23,9 +26,6 @@ def main():
 	except EmptyTokenListException as e:
 		# handle empty token list
 		pass
-	except:
-		print("Unknown error occered.")
-		sys.exit()
 
 
 

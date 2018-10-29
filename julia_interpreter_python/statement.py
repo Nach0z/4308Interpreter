@@ -1,4 +1,4 @@
 class statement:
-    """needs execution method"""
-
+	def execute():
+		raise NotImplementedError("statement is an abstract class")
 

@@ -2,7 +2,6 @@ from Token import Token
 from TokenType import TokenType
 from exceptions import *
 import re
-from enum import Enum
 
 class lexical_analyzer:
     list_of_tokens = []
@@ -29,9 +28,9 @@ class lexical_analyzer:
         return self.list_of_tokens[0]
 
     def has_tokens(self):
-        if(len(self.list_of_tokens == 0)):
-            return false
-        return true
+        if(len(self.list_of_tokens) == 0):
+            return False
+        return True
 
     # Got rid of get lexeme since it just separated based on whitespace
     def processLine(self, line, row):
