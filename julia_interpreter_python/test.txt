@@ -1,2 +1,4 @@
-function ( ) 
+function a ( ) 
+	t = 4
+	print ( t ) 
 	end

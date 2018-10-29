@@ -9,8 +9,8 @@ class ID:
 			raise ValueError("ID labels must be exactly one character long.")
 		self.lex = lex
 
-	def evaluate():
+	def evaluate(self):
 		return memory[self.lex]
 
-	def get_lexeme():
+	def get_lexeme(self):
 		return self.lex

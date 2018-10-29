@@ -1,4 +1,4 @@
-class program:
+class Program:
 	def __init__(self, name, block):
 		if name == "" or name == None:
 			raise ValueError("No function name.")

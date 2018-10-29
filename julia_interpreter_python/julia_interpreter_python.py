@@ -18,8 +18,6 @@ def main():
 		p = julia_parser.Parser(name)
 		program = p.parse()
 		program.execute()
-		print("Elements of memory dictionary: ")
-		print(ID.memory.iter())
 	except ParseException as e:
 		print(str(e))
 		pass

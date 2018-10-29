@@ -6,7 +6,7 @@ class Block:
     def get_list(self):
         return self.stmt_list
 
-    def add(stat):
+    def add(self, stat):
         self.stmt_list.append(stat)
 
     def execute(self):

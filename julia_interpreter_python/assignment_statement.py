@@ -1,3 +1,5 @@
+from Id import ID
+
 class assignment_statement:
 
 	# expr must be a kind of arithmetic expression
@@ -7,7 +9,7 @@ class assignment_statement:
 		self.var = value
 		if(expr == None):
 			raise ValueError("Null expression argument")
-		this.expr = expr
+		self.expr = expr
 
-	def execute():
-		ID.memory[var.get_lexeme()] = expr.evaluate()
+	def execute(self):
+		ID.memory[self.var.get_lexeme()] = self.expr.evaluate()
