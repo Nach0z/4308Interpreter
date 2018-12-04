@@ -1,19 +1,38 @@
 package lexical_Analyzer is
-
-   Input : File_Type;
+   ---need tp create an array for tokens
+    list_of_tokens : array (10) of Character;
    
-begin 
-   
-   --Needs to input file similar to the python version
-   -- array (10) of Character;
-   
-   --Open (File => Input,
-   --      Mode => In_File,
-     --    Name => "testcode.txt")
+   procedure getList is
+      
+      Input_Code : File_Type;   
+      C : Character;
      
-   --for Index in Blocks'Range loop 
-     -- Read_A_Single Block : 
-      --loop 
-         --exit when 
+   begin 
+   
+      Ada.Text_IO.Open (File => Input_Code, Mode => In_File,Name => "testcode.txt");
+      
+      while not End_Of_File(Input_Code) loop 
+         
+         Ada.Text_IO.Get (File => Input, Item => C);
+         Ada.Text_IO.Put (Item = C);
+         
+         
+         Ada.Text_IO.New_Line;
+         
+      end;
+      
+      Ada.Text_IO.Close;  
+   
+   end; 
+   
+   procedure has_tokens is
+      
+   begin 
+      
+      if list_of_tokens.length == 0 then 
+         return false;
+         
+         
+   
 
 end lexical_Analyzer;
