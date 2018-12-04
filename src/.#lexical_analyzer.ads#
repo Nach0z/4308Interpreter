@@ -1,0 +1,19 @@
+package lexical_Analyzer is
+
+   Input : File_Type;
+   
+begin 
+   
+   --Needs to input file similar to the python version
+   -- array (10) of Character;
+   
+   --Open (File => Input,
+   --      Mode => In_File,
+     --    Name => "testcode.txt")
+     
+   --for Index in Blocks'Range loop 
+     -- Read_A_Single Block : 
+      --loop 
+         --exit when 
+
+end lexical_Analyzer;
