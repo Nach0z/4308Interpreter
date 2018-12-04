@@ -1,0 +1,6 @@
+package Token is
+
+   --TODO: ADD tokens all tokens to the token type
+   type token_type is (ID, Literal_INT)
+
+end Token;

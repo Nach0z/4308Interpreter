@@ -1,5 +1,5 @@
 package lexical_Analyzer is
-   ---need tp create an array for tokens
+   ---TODO: Make the array below a dyanmic array to store values of Type Token
     list_of_tokens : array (10) of Character;
    
    procedure getList is
@@ -25,12 +25,30 @@ package lexical_Analyzer is
    
    end; 
    
-   procedure has_tokens is
+   function has_tokens return Boolean is
       
    begin 
       
       if list_of_tokens.length == 0 then 
-         return false;
+         return False;
+         
+      else 
+         return True;
+         
+      end if;
+      
+      end;
+      
+   function get_Token_ID  (row : Integer, column : Integer, lex : String) return Integer is 
+      
+      --TODO Finish the token ID method
+      
+      tid : Integer;
+      
+   begin 
+      tid = 0;
+      
+      if(is)
          
          
    
