@@ -1,6 +1,10 @@
+use Token;
+use a_token;
+
+
 package lexical_Analyzer is
    ---TODO: Make the array below a dyanmic array to store values of Type Token
-    list_of_tokens : array (10) of Character;
+    list_of_tokens : array (10) of a_token;
    
    procedure getList is
       
@@ -42,6 +46,8 @@ package lexical_Analyzer is
    function get_Token_ID  (row : Integer, column : Integer, lex : String) return Integer is 
       
       --TODO Finish the token ID method
+      
+      Assert lex != null;
       
       tid : Integer;
       
