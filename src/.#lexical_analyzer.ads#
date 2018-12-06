@@ -1,10 +1,10 @@
 use Token;
 use a_token;
-
+use Ada.Characters.Handling;
 
 package lexical_Analyzer is
    ---TODO: Make the array below a dyanmic array to store values of Type Token
-    list_of_tokens : array (10) of a_token;
+   array (list_of_tokens range <>) of a_token;
    
    procedure getList is
       
@@ -20,7 +20,8 @@ package lexical_Analyzer is
          Ada.Text_IO.Get (File => Input, Item => C);
          Ada.Text_IO.Put (Item = C);
          
-         
+         list_of_tokens.ff
+       
          Ada.Text_IO.New_Line;
          
       end;
@@ -41,7 +42,7 @@ package lexical_Analyzer is
          
       end if;
       
-      end;
+   end;
       
    function get_Token_ID  (row : Integer, column : Integer, lex : String) return Integer is 
       
@@ -50,13 +51,16 @@ package lexical_Analyzer is
       Assert lex != null;
       
       tid : Integer;
+     
       
    begin 
       tid = 0;
       
-      if(is)
+      if Is_Digit(lex(0)) then 
+         for x in 1 .. lex.
          
+      
+   end;      
          
-   
 
 end lexical_Analyzer;

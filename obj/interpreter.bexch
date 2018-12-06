@@ -1,0 +1,19 @@
+[GENERATED OBJECT FILE]
+b__interpreter.o
+[PROJECT FILES]
+C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - ADA VERSION\julia_interpreter_ada.gpr
+20181030154940
+[BOUND OBJECT FILES]
+C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - ADA VERSION\obj\interpreter.o
+[GENERATED SOURCE FILES]
+b__interpreter.ads
+b__interpreter.adb
+b__interpreter.ali
+[RESULTING OPTIONS]
+-LC:\Users\Julian Lott\Documents\GitHub\4308Interpreter - ADA VERSION\obj\
+-LC:\Users\Julian Lott\Documents\GitHub\4308Interpreter - ADA VERSION\obj\
+-LC:/gnat/2018/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2018/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000
