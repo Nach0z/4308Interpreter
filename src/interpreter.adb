@@ -1,6 +1,13 @@
+use lexical_Analyzer;
+use Ada.Text_IO;
+
+
 procedure Interpreter is
 
+
 begin
-   --  Insert code here.
-   null;
+
+
+     Text_IO("Can this run?");
+
 end Interpreter;

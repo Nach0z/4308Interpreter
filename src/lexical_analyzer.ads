@@ -1,6 +1,6 @@
 use Token;
 use a_token;
-
+use Ada.Characters.Handling;
 
 package lexical_Analyzer is
    ---TODO: Make the array below a dyanmic array to store values of Type Token
@@ -20,7 +20,7 @@ package lexical_Analyzer is
          Ada.Text_IO.Get (File => Input, Item => C);
          Ada.Text_IO.Put (Item = C);
          
-         list_of_tokens.ff
+         list_of_tokens.
        
          Ada.Text_IO.New_Line;
          
@@ -51,11 +51,92 @@ package lexical_Analyzer is
       Assert lex != null;
       
       tid : Integer;
+     
       
    begin 
       tid = 0;
       
-   end;      
+      if Is_Digit(lex(0)) then 
+        
+         --TODO: deal with scanning each chatracter in a string
          
-
+      elsif Is_Character(lex(0)) then 
+         if lex(0) == 1 then 
+            tid := ID;
+         elsif lex == "function" then
+           tid := FUNCTION_STAT;
+         elsif lex == "end" then 
+            tid := END_STAT;
+         elsif lex == "if" then 
+            tid := FOR_STAT;
+         elsif lex == "for" then 
+            tid := FOR_STAT;
+         elsif lex == "while" then 
+            tid := WHILE_STAT;
+         elsif lex == "print" then
+            tid := PRINT_STAT;
+         elsif lex == "else" then
+            tid := ELSE_STAT;
+         else 
+            raise Argument_Error ("invalid indentifier");
+         end if;
+         
+      elsif lex == "=" then 
+         tid := ASSIGN_OP;
+      elsif lex == "<=" then 
+         tid := LE_OP;
+      elsif lex == "<" then 
+         tid == LT_OP;
+      elsif lex = ">" then 
+         tid := GT_OP;
+      elsif lex == ">=" then 
+         tid := GE_OP;
+      elsif lex == "==" then 
+         tid := EQ_OP;
+      elsif lex == "!=" then
+         tid := NE_OP;
+      elsif lex == "+" then 
+         tid := ADD_OP;
+      elsif lex == "-" then
+         tid := SUB_OP;
+      elsif lex == "*" then 
+         tid := MUL_OP;
+      elsif lex == "/" then 
+         tid := DIV_OP;
+      elsif lex == "%" then
+         tid := MOD_OP;
+      elsif lex = "\" then 
+         tid := REV_DIV_OP;
+      elsif lex == "(" then
+         tid := LEFT_PAREN;
+      elsif lex == ")" then 
+         tid := RIGHT_PAREN;
+      elsif lex == "^" then 
+         tid := EXP_OP;
+      elsif lex == ":" then 
+         tid := COLON;
+         
+         
+      else
+         --Note edit this message
+         raise Argument_Error ("Invalid lexeme somewhere");
+    
+      end if;   
+   end; 
+   
+   function get_Lexeme (line : String , index : Integer) return String is 
+      Assert line != null;
+      Assert index >= 0;
+      Assert Is_Space(line(index)) == False;
+      location : Integer;
+      
+   begin 
+      
+      location := index + 1;
+      
+      --TODO: work with string size
+      
+   end;
+         
+    
 end lexical_Analyzer;

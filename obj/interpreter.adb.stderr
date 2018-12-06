@@ -1,0 +1,4 @@
+interpreter.adb:1:05: "lexical_Analyzer" is undefined
+interpreter.adb:2:05: "Ada" is undefined
+interpreter.adb:2:05: missing "with Ada.Text_IO;"
+interpreter.adb:11:06: "Text_IO" is undefined
