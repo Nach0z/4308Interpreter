@@ -1,5 +1,5 @@
-use lexical_Analyzer;
-use Ada.Text_IO;
+with lexical_analyzer;
+with Text_IO;
 
 
 procedure Interpreter is
