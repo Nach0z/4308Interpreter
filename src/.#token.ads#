@@ -8,7 +8,7 @@ package Token is
                        WHILE_STAT, PRINT_STAT, LEFT_PAREN, RIGHT_PAREN, EOS, 
                        ELSE_STAT, COLON);
    
-   token_type'Pos (ID) = 1;
+   token_type'Pos (ID) = 1
      token_type'Pos (LITERAL_INT) = 2
      token_type'Pos (LE_OP) = 3
      token_type'Pos (LT_OP) = 4
@@ -36,6 +36,5 @@ package Token is
      token_type'Pos (ELSE_STAT) = 26
      token_type'Pos (COLON) = 27
      
-   
 
 end Token;

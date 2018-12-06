@@ -1,9 +1,2 @@
-interpreter.adb:1:06: file "lexical_analyzer.ads" does not contain expected unit
-interpreter.adb:1:06: expected unit "Lexical_Analyzer (spec)"
-interpreter.adb:1:06: found unit "Lexical_Analyzer (body)"
-lexical_analyzer.ads:7:15: file "lexical_analyzer.ads" does not contain expected unit
-lexical_analyzer.ads:7:15: expected unit "Lexical_Analyzer (spec)"
-lexical_analyzer.ads:7:15: found unit "Lexical_Analyzer (body)"
-lexical_analyzer.ads:63:14: "=" should be ":="
-lexical_analyzer.ads:129:39: "," should be ";"
-compilation abandoned
+token.ads:11:04: declaration expected
+token.ads:12:06: declaration expected

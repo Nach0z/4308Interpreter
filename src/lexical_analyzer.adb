@@ -3,9 +3,9 @@ use Token;
 use a_token;
 use Ada.Characters.Handling;
 
-
-package  body Lexical_Analyzer is
-   ---TODO: Make the array below a dyanmic array to store values of Type Token
+package body lexical_anaylzer is 
+   
+      ---TODO: Make the array below a dyanmic array to store values of Type Token
    --array (list_of_tokens range <>) of a_token;
    
    procedure getList is
@@ -139,6 +139,5 @@ package  body Lexical_Analyzer is
       --TODO: work with string size
       
    end get_Lexeme;
-         
-    
-end lexical_analyzer;
+   
+   end lexical_anaylzer;
