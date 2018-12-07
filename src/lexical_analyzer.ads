@@ -1,6 +1,7 @@
 with Ada.Text_IO;
 with Token;
-use a_token;
+with a_token;
+with Ada.Characters.Handling;
 use Ada.Characters.Handling;
 
 

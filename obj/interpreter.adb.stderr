@@ -1,2 +1,1 @@
-token.ads:11:04: declaration expected
-token.ads:12:06: declaration expected
+a_token.ads:7:09: missing full declaration for private extension

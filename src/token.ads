@@ -8,34 +8,34 @@ package Token is
                        WHILE_STAT, PRINT_STAT, LEFT_PAREN, RIGHT_PAREN, EOS, 
                        ELSE_STAT, COLON);
    
-   token_type'Pos (ID) = 1;
-     token_type'Pos (LITERAL_INT) = 2
-     token_type'Pos (LE_OP) = 3
-     token_type'Pos (LT_OP) = 4
-     token_type'Pos (GE_OP) = 5
-     token_type'Pos (GT_OP) = 6
-     token_type'Pos (FUNCTION_STAT) = 7
-     token_type'Pos (ASSIGN_OP) = 8
-     token_type'Pos (EQ_OP) = 9
-     token_type'Pos (NE_OP) = 10
-     token_type'Pos (ADD_OP) = 11
-     token_type'Pos (SUB_OP) = 12
-     token_type'Pos (MUL_OP) = 13
-     token_type'Pos (DIV_OP) = 14
-     token_type'Pos (MOD_OP) = 15
-     token_type'Pos (REV_DIV_OP) = 16
-     token_type'Pos (EXP_OP) = 17
-     token_type'Pos (FOR_STAT) = 18
-     token_type'Pos (IF_STAT) = 19
-     token_type'Pos (END_STAT) = 20
-     token_type'Pos (WHILE_STAT) = 21
-     token_type'Pos (PRINT_STAT) = 22
-     token_type'Pos (LEFT_PAREN) = 23
-     token_type'Pos (RIGHT_PAREN) = 24
-     token_type'Pos (EOS) = 25
-     token_type'Pos (ELSE_STAT) = 26
-     token_type'Pos (COLON) = 27
+   for token_type use
+   (ID => 1,
+     LITERAL_INT => 2,
+     LE_OP => 3,
+     LT_OP => 4,
+     GE_OP => 5,
+     GT_OP => 6,
+     FUNCTION_STAT => 7,
+     ASSIGN_OP => 8,
+     EQ_OP => 9,
+     NE_OP => 10,
+     ADD_OP => 11,
+     SUB_OP => 12,
+     MUL_OP => 13,
+     DIV_OP => 14,
+     MOD_OP => 15,
+     REV_DIV_OP => 16,
+     EXP_OP => 17,
+     FOR_STAT => 18,
+     IF_STAT => 19,
+     END_STAT => 20,
+     WHILE_STAT => 21,
+     PRINT_STAT => 22,
+     LEFT_PAREN => 23,
+     RIGHT_PAREN => 24,
+     EOS => 25,
+     ELSE_STAT => 26,
+     COLON => 27);
      
-   
 
 end Token;
