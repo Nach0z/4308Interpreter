@@ -2,363 +2,11 @@
 <Locations >
   <Project>
     <vfs_file />
-    <file_marker column=" 2" line=" 8" >
-      <vfs_project />
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - ADA VERSION\src\a_token.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 21" line=" 7" >
-      <vfs_project />
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - ADA VERSION\src\a_token.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 45" line=" 3" >
-      <vfs_project />
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - ADA VERSION\src\a_token.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 11" line=" 7" >
-      <vfs_project />
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - ADA VERSION\src\a_token.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 45" line=" 3" >
-      <vfs_project />
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - ADA VERSION\src\a_token.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 42" line=" 7" >
-      <vfs_project />
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - ADA VERSION\src\a_token.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 102" line=" 9" >
-      <vfs_project />
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - ADA VERSION\src\a_token.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 11" line=" 7" >
-      <vfs_project />
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - ADA VERSION\src\a_token.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 4" line=" 10" >
-      <vfs_project />
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - ADA VERSION\src\a_token.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 11" line=" 7" >
-      <vfs_project />
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - ADA VERSION\src\a_token.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project />
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - ADA VERSION\src\lexical_analyzer.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project />
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - ADA VERSION\src\a_token.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project />
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - ADA VERSION\src\a_token.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 102" line=" 9" >
-      <vfs_project />
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - ADA VERSION\src\a_token.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 14" line=" 6" >
-      <vfs_project />
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - ADA VERSION\src\lexical_analyzer.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 14" line=" 63" >
-      <vfs_project />
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - ADA VERSION\src\lexical_analyzer.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 39" line=" 129" >
-      <vfs_project />
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - ADA VERSION\src\lexical_analyzer.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 4" line=" 143" >
-      <vfs_project />
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - ADA VERSION\src\lexical_analyzer.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 30" line=" 6" >
-      <vfs_project />
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - ADA VERSION\src\lexical_analyzer.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 4" line=" 143" >
-      <vfs_project />
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - ADA VERSION\src\lexical_analyzer.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 14" line=" 6" >
-      <vfs_project />
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - ADA VERSION\src\lexical_analyzer.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project />
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - ADA VERSION\src\a_token.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project />
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - ADA VERSION\src\lexical_analyzer.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project />
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - ADA VERSION\src\lexical_analyzer.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project />
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - ADA VERSION\src\a_token.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project />
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - ADA VERSION\src\a_token.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project />
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - ADA Version Alt\src\interpreter.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 2" line=" 12" >
+    <file_marker column=" 40" line=" 138" >
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 7" >
-      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 27" line=" 1" >
-      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\token_type.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 2" >
-      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\token_type.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 2" >
-      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\token.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 80" line=" 26" >
-      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\token.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\token.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\token.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\token.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\token.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\token_type.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\token_type.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\token_type.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 27" line=" 1" >
-      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\token_type.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\interpreter.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 17" line=" 3" >
-      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\interpreter.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 20" line=" 17" >
-      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\token.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\token.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 4" line=" 3" >
-      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\token.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 6" line=" 1" >
-      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\interpreter.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 16" line=" 3" >
-      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 6" line=" 1" >
-      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\interpreter.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\token.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 16" line=" 3" >
-      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 6" line=" 1" >
-      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\interpreter.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\token.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\token.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 4" line=" 3" >
-      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\token.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 16" line=" 2" >
-      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\token.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 11" line=" 6" >
-      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\token.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 86" line=" 8" >
-      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\token.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 11" line=" 6" >
-      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\token.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 86" line=" 8" >
-      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\token.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 20" line=" 17" >
-      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\token_type.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\token_type.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\token_type.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\token_type.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 20" line=" 17" >
-      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 28" >
-      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 20" line=" 17" >
-      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\token_type.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\token_type.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\token_type.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\token.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\token.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 17" line=" 3" >
-      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 9" line=" 5" >
-      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 40" line=" 134" >
-      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
-      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 20" line=" 17" >
+    <file_marker column=" 20" line=" 21" >
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
     </file_marker>
@@ -366,11 +14,11 @@
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 7" line=" 18" >
+    <file_marker column=" 7" line=" 22" >
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 30" line=" 17" >
+    <file_marker column=" 30" line=" 21" >
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
     </file_marker>
@@ -378,11 +26,11 @@
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 35" line=" 26" >
+    <file_marker column=" 35" line=" 30" >
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 21" line=" 27" >
+    <file_marker column=" 21" line=" 31" >
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
     </file_marker>
@@ -394,11 +42,11 @@
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 21" line=" 27" >
+    <file_marker column=" 21" line=" 31" >
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 10" line=" 41" >
+    <file_marker column=" 10" line=" 45" >
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
     </file_marker>
@@ -410,31 +58,31 @@
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\token_type.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 10" line=" 41" >
+    <file_marker column=" 10" line=" 45" >
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 4" line=" 51" >
+    <file_marker column=" 4" line=" 55" >
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 20" line=" 131" >
+    <file_marker column=" 20" line=" 135" >
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 10" line=" 41" >
+    <file_marker column=" 10" line=" 45" >
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 4" line=" 13" >
+    <file_marker column=" 9" line=" 15" >
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 15" line=" 66" >
+    <file_marker column=" 15" line=" 70" >
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 24" line=" 13" >
+    <file_marker column=" 9" line=" 15" >
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
     </file_marker>
@@ -470,19 +118,19 @@
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\token.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 24" line=" 13" >
+    <file_marker column=" 9" line=" 15" >
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 10" line=" 41" >
+    <file_marker column=" 10" line=" 45" >
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 19" line=" 63" >
+    <file_marker column=" 19" line=" 67" >
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 23" line=" 68" >
+    <file_marker column=" 23" line=" 72" >
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
     </file_marker>
@@ -494,59 +142,59 @@
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 20" line=" 70" >
+    <file_marker column=" 20" line=" 74" >
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 10" line=" 41" >
+    <file_marker column=" 10" line=" 45" >
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 28" line=" 69" >
+    <file_marker column=" 28" line=" 73" >
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 10" line=" 41" >
+    <file_marker column=" 10" line=" 45" >
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 20" line=" 70" >
+    <file_marker column=" 20" line=" 74" >
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 10" line=" 41" >
+    <file_marker column=" 10" line=" 45" >
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 21" line=" 69" >
+    <file_marker column=" 21" line=" 73" >
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 10" line=" 41" >
+    <file_marker column=" 10" line=" 45" >
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 33" line=" 37" >
+    <file_marker column=" 33" line=" 41" >
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 19" line=" 63" >
+    <file_marker column=" 19" line=" 67" >
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 20" line=" 70" >
+    <file_marker column=" 20" line=" 74" >
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 19" line=" 63" >
+    <file_marker column=" 19" line=" 67" >
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 19" line=" 72" >
+    <file_marker column=" 19" line=" 76" >
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 19" line=" 63" >
+    <file_marker column=" 19" line=" 67" >
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
     </file_marker>
@@ -562,15 +210,15 @@
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\token_type.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 19" line=" 63" >
+    <file_marker column=" 19" line=" 67" >
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 20" line=" 70" >
+    <file_marker column=" 20" line=" 74" >
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 19" line=" 63" >
+    <file_marker column=" 19" line=" 67" >
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
     </file_marker>
@@ -578,11 +226,11 @@
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\token_type.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 33" line=" 70" >
+    <file_marker column=" 33" line=" 74" >
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 19" line=" 63" >
+    <file_marker column=" 19" line=" 67" >
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
     </file_marker>
@@ -622,7 +270,7 @@
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\token_type.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 29" line=" 74" >
+    <file_marker column=" 29" line=" 78" >
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
     </file_marker>
@@ -630,23 +278,23 @@
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\token_type.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 19" line=" 63" >
+    <file_marker column=" 19" line=" 67" >
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 40" line=" 74" >
+    <file_marker column=" 40" line=" 78" >
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 19" line=" 63" >
+    <file_marker column=" 19" line=" 67" >
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 17" line=" 87" >
+    <file_marker column=" 17" line=" 91" >
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 19" line=" 63" >
+    <file_marker column=" 19" line=" 67" >
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
     </file_marker>
@@ -674,27 +322,27 @@
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 19" line=" 86" >
+    <file_marker column=" 19" line=" 90" >
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 19" line=" 63" >
+    <file_marker column=" 19" line=" 67" >
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 34" line=" 104" >
+    <file_marker column=" 34" line=" 108" >
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 19" line=" 63" >
+    <file_marker column=" 19" line=" 67" >
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 28" line=" 119" >
+    <file_marker column=" 28" line=" 123" >
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 19" line=" 63" >
+    <file_marker column=" 19" line=" 67" >
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
     </file_marker>
@@ -702,35 +350,35 @@
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 19" line=" 63" >
+    <file_marker column=" 19" line=" 67" >
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 19" line=" 86" >
+    <file_marker column=" 19" line=" 90" >
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 19" line=" 63" >
+    <file_marker column=" 19" line=" 67" >
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 38" line=" 86" >
+    <file_marker column=" 38" line=" 90" >
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 19" line=" 63" >
+    <file_marker column=" 19" line=" 67" >
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 33" line=" 86" >
+    <file_marker column=" 33" line=" 90" >
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 19" line=" 63" >
+    <file_marker column=" 19" line=" 67" >
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 88" line=" 51" >
+    <file_marker column=" 88" line=" 55" >
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
     </file_marker>
@@ -742,35 +390,35 @@
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 19" line=" 63" >
+    <file_marker column=" 19" line=" 67" >
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 19" line=" 146" >
+    <file_marker column=" 19" line=" 150" >
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 19" line=" 63" >
+    <file_marker column=" 19" line=" 67" >
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 30" line=" 55" >
+    <file_marker column=" 30" line=" 59" >
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 19" line=" 63" >
+    <file_marker column=" 19" line=" 67" >
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 23" line=" 68" >
+    <file_marker column=" 23" line=" 72" >
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 25" line=" 63" >
+    <file_marker column=" 25" line=" 67" >
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 73" line=" 51" >
+    <file_marker column=" 73" line=" 55" >
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
     </file_marker>
@@ -778,29 +426,381 @@
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 23" line=" 63" >
+    <file_marker column=" 23" line=" 67" >
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 22" line=" 68" >
+    <file_marker column=" 22" line=" 72" >
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 23" line=" 63" >
+    <file_marker column=" 23" line=" 67" >
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 39" line=" 66" >
+    <file_marker column=" 39" line=" 70" >
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 23" line=" 63" >
+    <file_marker column=" 23" line=" 67" >
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
     </file_marker>
-    <file_marker current="true" column=" 4" line=" 3" >
+    <file_marker column=" 4" line=" 3" >
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\arraylist.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 5" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\arraylist.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\arraylist.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\arraylist.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\arraylist.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 49" line=" 3" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\arraylist.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 23" line=" 67" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 31" line=" 10" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 29" line=" 3" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\arraylist.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 23" line=" 67" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\arraylist.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\arraylist.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 41" line=" 7" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\arraylist.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 23" line=" 67" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\arraylist.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\arraylist.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 15" line=" 11" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\arraylist.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 23" line=" 67" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\arraylist.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 15" line=" 11" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\arraylist.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 23" line=" 67" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\arraylist.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\arraylist.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 15" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 23" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 15" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 16" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 15" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 16" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 15" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 40" line=" 11" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 15" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 31" line=" 10" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 21" line=" 12" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 15" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 16" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 15" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 109" line=" 17" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 21" line=" 19" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 18" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 21" line=" 19" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 2" line=" 17" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 21" line=" 19" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 109" line=" 17" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 24" line=" 19" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 109" line=" 17" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\token.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 20" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\token.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 20" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\token.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 20" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\token.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\token.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 4" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\token.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 109" line=" 17" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\token_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\token.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\token.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 20" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\token.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 57" line=" 7" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\token.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 20" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\token.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 109" line=" 17" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\token_type.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\token_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\token.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\token_type.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\token.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 57" line=" 7" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\token.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\token.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\token.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\token.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\token.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 57" line=" 7" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\token.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\token.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\token.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 57" line=" 7" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\token.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\token.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\token.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 57" line=" 7" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\token.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 57" line=" 7" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\token.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\token.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 68" line=" 13" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\token.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 57" line=" 7" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\token.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\token.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\token.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 68" line=" 13" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\token.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 109" line=" 17" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 18" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 23" line=" 67" >
+      <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
+      <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
     </file_marker>
   </Project>
 </Locations>
