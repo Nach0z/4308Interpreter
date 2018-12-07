@@ -1,0 +1,83 @@
+lexical_analyzer.adb:13:20: "File_Type" is not visible
+lexical_analyzer.adb:13:20: non-visible declaration at a-textio.ads:52
+lexical_analyzer.adb:18:53: "In_File" is not visible
+lexical_analyzer.adb:18:53: non-visible declaration at a-textio.ads:53
+lexical_analyzer.adb:20:17: "End_Of_File" is not visible
+lexical_analyzer.adb:20:17: non-visible declaration at a-textio.ads:184
+lexical_analyzer.adb:20:17: non-visible declaration at a-textio.ads:183
+lexical_analyzer.adb:22:35: "Input" is undefined
+lexical_analyzer.adb:23:21: no candidate interpretations match the actuals:
+lexical_analyzer.adb:23:21: missing argument for parameter "Item" in call to "Put" declared at a-textio.ads:241
+lexical_analyzer.adb:23:21: missing argument for parameter "Item" in call to "Put" declared at a-textio.ads:207
+lexical_analyzer.adb:23:21: possible missing instantiation of Text_IO.Enumeration_IO
+lexical_analyzer.adb:23:27: "Item" is undefined
+lexical_analyzer.adb:23:32: possible misspelling of "=>"
+lexical_analyzer.adb:23:32:   ==> in call to "Put" at a-textio.ads:242
+lexical_analyzer.adb:23:32: possible misspelling of "=>"
+lexical_analyzer.adb:23:32:   ==> in call to "Put" at a-textio.ads:208
+lexical_analyzer.adb:37:10: "list_of_tokens" is undefined
+lexical_analyzer.adb:47:04: missing "return" statement in function body
+lexical_analyzer.adb:59:23: warning: string index should be positive
+lexical_analyzer.adb:59:23: warning: static expression fails Constraint_Check
+lexical_analyzer.adb:62:14: "=" should be ":="
+lexical_analyzer.adb:64:26: expected type "Standard.Wide_Character"
+lexical_analyzer.adb:64:26: found type "Standard.Character"
+lexical_analyzer.adb:65:20: invalid operand types for operator "="
+lexical_analyzer.adb:65:20: left operand has type "Standard.Character"
+lexical_analyzer.adb:65:20: right operand has type universal integer
+lexical_analyzer.adb:66:20: "ID" is not visible
+lexical_analyzer.adb:66:20: non-visible declaration at token_type.ads:4
+lexical_analyzer.adb:68:19: "FUNCTION_STAT" is not visible
+lexical_analyzer.adb:68:19: non-visible declaration at token_type.ads:5
+lexical_analyzer.adb:70:20: "END_STAT" is not visible
+lexical_analyzer.adb:70:20: non-visible declaration at token_type.ads:7
+lexical_analyzer.adb:72:20: "FOR_STAT" is not visible (more references follow)
+lexical_analyzer.adb:72:20: non-visible declaration at token_type.ads:7
+lexical_analyzer.adb:76:20: "WHILE_STAT" is not visible
+lexical_analyzer.adb:76:20: non-visible declaration at token_type.ads:8
+lexical_analyzer.adb:78:20: "PRINT_STAT" is not visible
+lexical_analyzer.adb:78:20: non-visible declaration at token_type.ads:8
+lexical_analyzer.adb:80:20: "ELSE_STAT" is not visible
+lexical_analyzer.adb:80:20: non-visible declaration at token_type.ads:9
+lexical_analyzer.adb:82:19: "Argument_Error" is undefined (more references follow)
+lexical_analyzer.adb:86:17: "ASSIGN_OP" is not visible
+lexical_analyzer.adb:86:17: non-visible declaration at token_type.ads:5
+lexical_analyzer.adb:88:17: "LE_OP" is not visible
+lexical_analyzer.adb:88:17: non-visible declaration at token_type.ads:4
+lexical_analyzer.adb:90:17: "LT_OP" is not visible
+lexical_analyzer.adb:90:17: non-visible declaration at token_type.ads:4
+lexical_analyzer.adb:92:17: "GT_OP" is not visible
+lexical_analyzer.adb:92:17: non-visible declaration at token_type.ads:5
+lexical_analyzer.adb:94:17: "GE_OP" is not visible
+lexical_analyzer.adb:94:17: non-visible declaration at token_type.ads:5
+lexical_analyzer.adb:96:17: "EQ_OP" is not visible
+lexical_analyzer.adb:96:17: non-visible declaration at token_type.ads:6
+lexical_analyzer.adb:98:17: "NE_OP" is not visible
+lexical_analyzer.adb:98:17: non-visible declaration at token_type.ads:6
+lexical_analyzer.adb:100:17: "ADD_OP" is not visible
+lexical_analyzer.adb:100:17: non-visible declaration at token_type.ads:6
+lexical_analyzer.adb:102:17: "SUB_OP" is not visible
+lexical_analyzer.adb:102:17: non-visible declaration at token_type.ads:6
+lexical_analyzer.adb:104:17: "MUL_OP" is not visible
+lexical_analyzer.adb:104:17: non-visible declaration at token_type.ads:6
+lexical_analyzer.adb:106:17: "DIV_OP" is not visible
+lexical_analyzer.adb:106:17: non-visible declaration at token_type.ads:6
+lexical_analyzer.adb:108:17: "MOD_OP" is not visible
+lexical_analyzer.adb:108:17: non-visible declaration at token_type.ads:7
+lexical_analyzer.adb:110:17: "REV_DIV_OP" is not visible
+lexical_analyzer.adb:110:17: non-visible declaration at token_type.ads:7
+lexical_analyzer.adb:112:17: "LEFT_PAREN" is not visible
+lexical_analyzer.adb:112:17: non-visible declaration at token_type.ads:8
+lexical_analyzer.adb:114:17: "RIGHT_PAREN" is not visible
+lexical_analyzer.adb:114:17: non-visible declaration at token_type.ads:8
+lexical_analyzer.adb:116:17: "EXP_OP" is not visible
+lexical_analyzer.adb:116:17: non-visible declaration at token_type.ads:7
+lexical_analyzer.adb:118:17: "COLON" is not visible
+lexical_analyzer.adb:118:17: non-visible declaration at token_type.ads:9
+lexical_analyzer.adb:118:17: non-visible declaration in package Standard.ASCII
+lexical_analyzer.adb:123:16: exception name expected in raise statement
+lexical_analyzer.adb:128:04: missing "return" statement in function body
+lexical_analyzer.adb:128:13: not type conformant with declaration at lexical_analyzer.ads:14
+lexical_analyzer.adb:128:13: too few parameters
+lexical_analyzer.adb:128:39: "," should be ";"
+lexical_analyzer.adb:136:19: "index" is undefined
