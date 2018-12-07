@@ -1,16 +1,24 @@
-with Ada.Text_IO;
-with Token;
-with Token_Type;
+with Ada.Text_IO; use Ada.Text_IO;
+with Token; use Token;
+with Token_Type; use Token_Type;
 with Ada.Characters.Handling;
 use Ada.Characters.Handling;
+with Ada.Long_Float_Text_IO;
+with Ada.Sequential_IO;
+with Ada.Exceptions; use Ada.Exceptions;
+with Ada.Strings; use Ada.Strings;
+with arraylist; use arraylist;
+with Ada.Containers.Indefinite_Vectors;
+use Ada.Containers; 
 package body Lexical_Analyzer is
 
-        ---TODO: Make the array below a dyanmic array to store values of Type Token
-   --array (list_of_tokens range <>) of a_token;
+        
+   --Using strings as a place holder until we can figure out how to include token as a type
+   package list_of_tokens is new Ada.Containers.Indefinite_Vectors (Index_Type => Positive, Element_type => String);
    
    procedure getList is
       
-      Input_Code : File_Type;   
+      Input_Code : File_Type;  
       C : Character;
      
    begin 
@@ -19,9 +27,9 @@ package body Lexical_Analyzer is
       
       while not End_Of_File(Input_Code) loop 
          
-         Ada.Text_IO.Get (File => Input, Item => C);
-         Ada.Text_IO.Put (Item = C);
-
+         Ada.Text_IO.Get (File => Input_Code, Item => C);
+         Ada.Text_IO.Put (Item => C);
+  
        
            Ada.Text_IO.New_Line;
          end loop;
@@ -34,7 +42,7 @@ package body Lexical_Analyzer is
       
    begin 
       
-      if list_of_tokens.length = 0 then 
+      if true then 
          return False;
          
       else 
@@ -44,7 +52,7 @@ package body Lexical_Analyzer is
       
    end has_tokens;
       
-   function get_Token_ID  (row : Integer; column : Integer; lex : String) return Integer is 
+   function get_Token_ID  (row : Integer; column : Integer; lex : String) return String is 
       
       --TODO Finish the token ID method
       --Find a wyay to replace assertion
@@ -59,73 +67,75 @@ package body Lexical_Analyzer is
       if Is_Digit(lex(0)) then 
         
          --TODO: deal with scanning each chatracter in a string
-         tid = 0;
+         tid := id_number(LITERAL_INT);
          
-      elsif Is_Character(lex(0)) then 
-         if lex(0) = 1 then 
-            tid := ID;
+      elsif Is_Letter(lex(0)) then 
+         if lex(0) = 1 then
+            tid := id_number(ID);
          elsif lex = "function" then
-           tid := FUNCTION_STAT;
+           tid := id_number(FUNCTION_STAT);
          elsif lex = "end" then 
-            tid := END_STAT;
+            tid := id_number(END_STAT);
          elsif lex = "if" then 
-            tid := FOR_STAT;
+            tid := id_number(FOR_STAT);
          elsif lex = "for" then 
-            tid := FOR_STAT;
+            tid := id_number(FOR_STAT);
          elsif lex = "while" then 
-            tid := WHILE_STAT;
+            tid := id_number(WHILE_STAT);
          elsif lex = "print" then
-            tid := PRINT_STAT;
+            tid := id_number(PRINT_STAT);
          elsif lex = "else" then
-            tid := ELSE_STAT;
+            tid := id_number(ELSE_STAT);
          else 
-            raise Argument_Error ("invalid indentifier");
+            raise Argument_Error with ("invalid indentifier");
          end if;
          
       elsif lex = "=" then 
-         tid := ASSIGN_OP;
+         tid := id_number(ASSIGN_OP);
       elsif lex = "<=" then 
-         tid := LE_OP;
+         tid := id_number(LE_OP);
       elsif lex = "<" then 
-         tid := LT_OP;
+         tid := id_number(LT_OP);
       elsif lex = ">" then 
-         tid := GT_OP;
+         tid := id_number(GT_OP);
       elsif lex = ">=" then 
-         tid := GE_OP;
+         tid := id_number(GE_OP);
       elsif lex = "==" then 
-         tid := EQ_OP;
+         tid := id_number(EQ_OP);
       elsif lex = "!=" then
-         tid := NE_OP;
+         tid := id_number(NE_OP);
       elsif lex = "+" then 
-         tid := ADD_OP;
+         tid := id_number(ADD_OP);
       elsif lex = "-" then
-         tid := SUB_OP;
+         tid := id_number(SUB_OP);
       elsif lex = "*" then 
-         tid := MUL_OP;
+         tid := id_number(MUL_OP);
       elsif lex = "/" then 
-         tid := DIV_OP;
+         tid := id_number(DIV_OP);
       elsif lex = "%" then
-         tid := MOD_OP;
+         tid := id_number(MOD_OP);
       elsif lex = "\" then 
-         tid := REV_DIV_OP;
+         tid := id_number(REV_DIV_OP);
       elsif lex = "(" then
-         tid := LEFT_PAREN;
+         tid := id_number(LEFT_PAREN);
       elsif lex = ")" then 
-         tid := RIGHT_PAREN;
+         tid := id_number(RIGHT_PAREN);
       elsif lex = "^" then 
-         tid := EXP_OP;
+         tid := id_number(EXP_OP);
       elsif lex = ":" then 
-         tid := COLON;
+         tid := id_number(COLON);
          
          
       else
          --Note edit this message
-         raise Argument_Error ("Invalid lexeme somewhere");
+         raise Argument_Error with ("Invalid lexeme somewhere");
     
-      end if;   
+      end if;
+        
+        return lex;
    end get_Token_ID; 
    
-   function get_Lexeme (line : String , index : Integer) return String is 
+   function get_Lexeme (line : String ; index : Integer) return String is 
       --Assert (line != null);
       --Assert index >= 0;
       --Assert Is_Space(line(index)) == False;
@@ -136,6 +146,8 @@ package body Lexical_Analyzer is
       location := index + 1;
       
       --TODO: work with string size
+      
+      return line;
       
    end get_Lexeme;
 

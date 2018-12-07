@@ -10,7 +10,7 @@ RV NO_IO
 RV NO_IMPLEMENTATION_PRAGMAS
 RV SPARK_05
 
-U interpreter%b		interpreter.adb		9b774361 NE OO SU
+U interpreter%b		interpreter.adb		b4633862 NE OO SU
 W ada%s			ada.ads			ada.ali
 W ada.text_io%s		a-textio.adb		a-textio.ali
 W lexical_analyzer%s	lexical_analyzer.adb	lexical_analyzer.ali
@@ -28,7 +28,7 @@ D a-unccon.ads		20180524051738 0e9b276f ada.unchecked_conversion%s
 D interfac.ads		20180524051736 5ab55268 interfaces%s
 D i-cstrea.ads		20180524051736 e53d8b8e interfaces.c_streams%s
 D interpreter.adb	20181207040854 7387d6c6 interpreter%b
-D lexical_analyzer.ads	20181207041020 60ed26fd lexical_analyzer%s
+D lexical_analyzer.ads	20181207145456 4ff95dfe lexical_analyzer%s
 D system.ads		20180524051738 32a08138 system%s
 D s-crtl.ads		20180524051736 0ebbdb71 system.crtl%s
 D s-exctab.ads		20180524051738 54135002 system.exception_table%s
@@ -43,8 +43,8 @@ D s-stoele.ads		20180524051738 2dc34a04 system.storage_elements%s
 D s-traent.ads		20180524051736 005bf670 system.traceback_entries%s
 D s-unstyp.ads		20180524051736 34867c83 system.unsigned_types%s
 D s-wchcon.ads		20180524051738 1b7d22d2 system.wch_con%s
-D token.ads		20181207041154 d5143775 token%s
-D token_type.ads	20181207041254 2c86a50f token_type%s
+D token.ads		20181207160518 d29ad33c token%s
+D token_type.ads	20181207143930 cd89553d token_type%s
 X 1 ada.ads
 16K9*Ada 20e8 13|2r6 3r5
 X 9 a-textio.ads

@@ -1,13 +1,16 @@
 package body Token is
 
-      --type a_token is new Controlled with public;
+   
+   type token is new Controlled with private; 
+   
+   --type a_token is new Controlled with public;
    
    token_ID : Integer;
    lex : String;
    row : Integer;
    column : Integer;
    
-   function Create(token_ID : Integer, lex : String, row : Integer, column : Integer) return token is 
+   function Create(token_ID : Integer; lex : String; row : Integer; column : Integer) return token is 
       
       if token_ID == null then 
          raise Invalid_Argument with "one of the token value is invalid!";

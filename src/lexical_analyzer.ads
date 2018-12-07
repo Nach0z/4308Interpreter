@@ -9,7 +9,7 @@ package Lexical_Analyzer is
    
    function has_tokens return Boolean; 
       
-   function get_Token_ID  (row : Integer; column : Integer; lex : String) return Integer;
+   function get_Token_ID  (row : Integer; column : Integer; lex : String) return String;
    
    function get_Lexeme (line : String ; index : Integer) return String;
 
