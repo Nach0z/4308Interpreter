@@ -15,25 +15,27 @@ package body Lexical_Analyzer is
    --Using strings as a place holder until we can figure out how to include token as a type
    package list_of_tokens is new Ada.Containers.Indefinite_Vectors (Index_Type => Positive, Element_type => token_t);
    
+   listoftokes : list_of_tokens;
+   
+   
    procedure getList is
       
       Input_Code : File_Type;  
-      C : Character;
+      row : Integer;
      
    begin 
    
       Ada.Text_IO.Open (File => Input_Code, Mode => In_File,Name => "testcode.txt");
-      
+      row := 1;
       while not End_Of_File(Input_Code) loop 
-         
-         Ada.Text_IO.Get (File => Input_Code, Item => C);
-         Ada.Text_IO.Put (Item => C);
-  
-       
-           Ada.Text_IO.New_Line;
-         end loop;
+         Put_Line (Get_Line (Input_Code));
+         row := row + 1;
+      end loop;
       
-      --Ada.Text_IO.Close;  
+     list_of_tokens.Insert(listoftokes, New_Item => new Create(id_number(EOS), "EOS", row, 1));          
+      
+      Close (Input_Code);
+                            
    
    end getList; 
    

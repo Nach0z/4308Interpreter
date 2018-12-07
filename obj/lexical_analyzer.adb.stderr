@@ -1,8 +1,19 @@
-lexical_analyzer.adb:66:23: warning: string index should be positive
-lexical_analyzer.adb:66:23: warning: static expression fails Constraint_Check
-lexical_analyzer.adb:71:27: warning: string index should be positive
-lexical_analyzer.adb:71:27: warning: static expression fails Constraint_Check
-lexical_analyzer.adb:72:20: invalid operand types for operator "="
-lexical_analyzer.adb:72:20: left operand has type "Standard.Character"
-lexical_analyzer.adb:72:20: right operand has type universal integer
-lexical_analyzer.adb:89:19: "Argument_Error" is undefined (more references follow)
+lexical_analyzer.adb:18:18: subtype mark required in this context
+lexical_analyzer.adb:18:18: found "list_of_tokens" declared at line 16
+lexical_analyzer.adb:35:20: no candidate interpretations match the actuals:
+lexical_analyzer.adb:35:20: missing argument for parameter "Before" in call to "Insert" declared at a-coinve.ads:214, instance at line 16
+lexical_analyzer.adb:35:20: missing argument for parameter "Before" in call to "Insert" declared at a-coinve.ads:208, instance at line 16
+lexical_analyzer.adb:35:20: missing argument for parameter "Before" in call to "Insert" declared at a-coinve.ads:202, instance at line 16
+lexical_analyzer.adb:35:20: missing argument for parameter "Before" in call to "Insert" declared at a-coinve.ads:196, instance at line 16
+lexical_analyzer.adb:35:20: missing argument for parameter "Before" in call to "Insert" declared at a-coinve.ads:191, instance at line 16
+lexical_analyzer.adb:35:20: missing argument for parameter "Before" in call to "Insert" declared at a-coinve.ads:186, instance at line 16
+lexical_analyzer.adb:35:57: subtype mark required in this context
+lexical_analyzer.adb:35:57: found "Create" declared at token.ads:11
+lexical_analyzer.adb:68:23: warning: string index should be positive
+lexical_analyzer.adb:68:23: warning: static expression fails Constraint_Check
+lexical_analyzer.adb:73:27: warning: string index should be positive
+lexical_analyzer.adb:73:27: warning: static expression fails Constraint_Check
+lexical_analyzer.adb:74:20: invalid operand types for operator "="
+lexical_analyzer.adb:74:20: left operand has type "Standard.Character"
+lexical_analyzer.adb:74:20: right operand has type universal integer
+lexical_analyzer.adb:91:19: "Argument_Error" is undefined (more references follow)

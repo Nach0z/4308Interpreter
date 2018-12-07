@@ -18,21 +18,21 @@ package body Lexical_Analyzer is
    procedure getList is
       
       Input_Code : File_Type;  
-      C : Character;
+      row : Integer;
      
    begin 
    
       Ada.Text_IO.Open (File => Input_Code, Mode => In_File,Name => "testcode.txt");
-      
+      row := 1;
       while not End_Of_File(Input_Code) loop 
-         
-         Ada.Text_IO.Get (File => Input_Code, Item => C);
-         Ada.Text_IO.Put (Item => C);
-       --this part needs work
-           Ada.Text_IO.New_Line;
-         end loop;
+         Put_Line (Get_Line (Input_Code));
+         row := row + 1;
+      end loop;
       
-      --Ada.Text_IO.Close;  
+     list_of_tokens.Insert(list_of_tokens, New_Item => new Create(id_number(EOS), "EOS", row, 1));          
+      
+      Close (Input_Code);
+                            
    
    end getList; 
    
