@@ -1,27 +1,20 @@
 package body Token is
 
+  
    
-   type token is new Controlled with private; 
-   
-   --type a_token is new Controlled with public;
-   
-   token_ID : Integer;
-   lex : String;
-   row : Integer;
-   column : Integer;
-   
-   function Create(token_ID : Integer; lex : String; row : Integer; column : Integer) return token is 
+   function Create(token_IDi : Integer; lexi : String; rowi : Integer; columni : Integer) return token_t is 
       
-      if token_ID == null then 
+   begin
+      if token_IDi == null then 
          raise Invalid_Argument with "one of the token value is invalid!";
          
-      elsif lex == null then 
+      elsif lexi == null then 
          raise Invalid_Argument with "one of the token value is invalid!";
           
-      elsif row == null then
+      elsif rowi == null then
          raise Invalid_Argument with "invalid row!";
                  
-      elsif column == null then
+      elsif columni == null then
          raise Invalid_Argument with "invalid column";
          
       else
@@ -29,6 +22,7 @@ package body Token is
          lex := String;
          row := Integer;
          column := Integer;
+         return (token_IDi => token_ID, lexi => lex, rowi = row, columni => column);
       end if;
       
    end Create;

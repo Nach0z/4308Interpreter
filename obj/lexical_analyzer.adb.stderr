@@ -1,9 +1,8 @@
-lexical_analyzer.adb:67:23: warning: string index should be positive
-lexical_analyzer.adb:67:23: warning: static expression fails Constraint_Check
-lexical_analyzer.adb:72:27: warning: string index should be positive
-lexical_analyzer.adb:72:27: warning: static expression fails Constraint_Check
-lexical_analyzer.adb:73:20: invalid operand types for operator "="
-lexical_analyzer.adb:73:20: left operand has type "Standard.Character"
-lexical_analyzer.adb:73:20: right operand has type universal integer
-lexical_analyzer.adb:90:19: "Argument_Error" is undefined (more references follow)
-arraylist.ads:3:29: "Object" is undefined (more references follow)
+lexical_analyzer.adb:66:23: warning: string index should be positive
+lexical_analyzer.adb:66:23: warning: static expression fails Constraint_Check
+lexical_analyzer.adb:71:27: warning: string index should be positive
+lexical_analyzer.adb:71:27: warning: static expression fails Constraint_Check
+lexical_analyzer.adb:72:20: invalid operand types for operator "="
+lexical_analyzer.adb:72:20: left operand has type "Standard.Character"
+lexical_analyzer.adb:72:20: right operand has type universal integer
+lexical_analyzer.adb:89:19: "Argument_Error" is undefined (more references follow)

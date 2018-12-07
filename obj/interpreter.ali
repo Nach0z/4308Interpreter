@@ -40,10 +40,11 @@ D s-soflin.ads		20180524051736 a7318a92 system.soft_links%s
 D s-stache.ads		20180524051738 a37c21ec system.stack_checking%s
 D s-stalib.ads		20180524051738 09bd3940 system.standard_library%s
 D s-stoele.ads		20180524051738 2dc34a04 system.storage_elements%s
+D s-stratt.ads		20180524051736 aedef97e system.stream_attributes%s
 D s-traent.ads		20180524051736 005bf670 system.traceback_entries%s
 D s-unstyp.ads		20180524051736 34867c83 system.unsigned_types%s
 D s-wchcon.ads		20180524051738 1b7d22d2 system.wch_con%s
-D token.ads		20181207160518 d29ad33c token%s
+D token.ads		20181207163818 56b153d9 token%s
 D token_type.ads	20181207143930 cd89553d token_type%s
 X 1 ada.ads
 16K9*Ada 20e8 13|2r6 3r5
