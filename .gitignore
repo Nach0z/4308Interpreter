@@ -5,3 +5,5 @@ bin
 *.gpr
 *.db
 *.cgpr
+*.xml
+*.xml

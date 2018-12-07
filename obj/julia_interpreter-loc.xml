@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Locations >
   <Project>
-    <vfs_file />
+    <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_file>
     <file_marker column=" 40" line=" 138" >
       <vfs_project>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\julia_interpreter.gpr</vfs_project>
       <vfs_file>C:\Users\Julian Lott\Documents\GitHub\4308Interpreter - Ada Alt\src\lexical_analyzer.adb</vfs_file>
