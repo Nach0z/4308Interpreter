@@ -28,7 +28,7 @@ package body Lexical_Analyzer is
          
          Ada.Text_IO.Get (File => Input_Code, Item => C);
          Ada.Text_IO.Put (Item => C);
-       --t
+       --this part needs work
            Ada.Text_IO.New_Line;
          end loop;
       
